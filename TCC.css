@@ -1,0 +1,112 @@
+
+* /* importa a fonte "boboto" do google fonts em divversos estilos e pesos*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --main-color: #da190f; /*--cor principal: #da190f;*/
+    --bg: #13131a;
+    --br-card: #0c0c14;
+    --border: 0.1rem solid grey; /*fronteira*/
+
+}
+
+* {
+    margin: 0;/*margem*/
+    padding: 0; /*preenchimento*/
+    box-sizing: border-box; /*dimensionamento de caixa*/
+    
+    font-family: 'Roboto', 'sans-serif'; /*família de fontes Roboto sem serifa*/
+    
+    text-decoration: none; /*decoração de texto nenhuma*/
+    text-transform: capitalize; /*transformação de texto: capitalizar*/
+    
+    transition: 0.2s linear; /*transição*/
+    
+    outline: none;/*não delinear nenhum (esboço: nenhum*/
+    
+    border: none; /*fronteira: nenhuma*/
+    
+    scroll-behavior: smooth;/*comportamento de rolagem: suave*/
+
+}
+
+html {
+    font-size: 62.5%;
+    /*configuração do font-size para 62.5%, facilitando o uso do rem (1rem = 10px)*/
+    overflow-x: hidden;
+    /*estouro x oculto*/
+    
+}
+
+body {
+    background: var(--bg); /*plano de fundo: var*/
+    background-color: aqua;
+  
+}
+
+/*inicio do header*/
+header {
+    background-color: #f59a9a; /*tira depois o background-color: #f59a9a;*/ 
+   /* background: var(--bg);*/ 
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 7%; /* explicação do uso da porcentagem*/
+    position: sticky;  /* sticky posição do header*/
+    border-bottom: var(--border);  /* sticky posição do header*/
+    top: 0;
+    left: 0;
+    z-index: 999;
+ 
+
+}
+
+.logo img {
+    
+    height: 6.5rem; /*define a altura da logo */
+ border-radius: 100%; /*torna a logo circular*/
+
+}
+
+.ul-header {
+    display: flex; /*  display: flex diixa a home lado a lado*/
+    gap: 15px;  /* gap: deixa a home no topo*/
+    list-style: none;  /* tirá as bolinhas das homes sempre na ul*/
+        
+}
+.ul-header li a {
+  
+    color: #fff; /*cor do texto*/
+    font-family: 1.6rem; /* tamanho da fonte do texto*/
+   
+}
+
+ /*inicio do hover*/
+.ul-header li a:hover {
+    color: var(--main-color);  /* hover mudar a cor do texto ao passar o mause no hover */
+border-bottom: 0.1rem solid var(--main-color);
+/* hover adicionar uma linha ao texto quando passa o mause inferior no hover*/
+padding-bottom: 0.5rem; 
+/*adiciona espaçamento inferior no hover*/
+}
+
+.icons {
+     /* não estou mexendo nos icones, e sim na caixa ok??*/
+ display: flex;
+ align-items: center;
+ gap: 15px;
+
+}
+
+.icons i {
+    /*estou mexendo nos icones*/
+    color: #fff;  /* cor branca para icones*/
+    cursor: pointer;  /* altera o cursor ao passar sobre o icones ao passar o mause*/
+    font-size: 2.5rem; /* tamanho do icones em rem*/
+   
+}
+
+.icons i:hover {
+    color: var(--main-color);  /* mudar a cor do icone ao passar o mause*/
+
+}
+
