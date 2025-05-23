@@ -31,7 +31,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size: 68.5%;
     /*configuração do font-size para 62.5%, facilitando o uso do rem (1rem = 10px)*/
     overflow-x: hidden;
     /*estouro x oculto*/
@@ -39,20 +39,25 @@ html {
 }
 
 body {
-    background: var(--bg); /*plano de fundo: var*/
+    /*background: var(--bg); /*plano de fundo: var*/ 
     background-color: aqua;
   
 }
 
 /*inicio do header*/
 header {
+    
     background-color: #f59a9a; /*tira depois o background-color: #f59a9a;*/ 
+    
    /* background: var(--bg);*/ 
     display: flex;
     align-items: center;
-    padding: 1.5rem 7%; /* explicação do uso da porcentagem*/
-    position: sticky;  /* sticky posição do header*/
-    border-bottom: var(--border);  /* sticky posição do header*/
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    /* explicação do uso da porcentagem*/
+    border-bottom: var(--border); 
+    position: sticky;
+    /* sticky posição do header*/
     top: 0;
     left: 0;
     z-index: 999;
@@ -61,11 +66,29 @@ header {
 }
 
 .logo img {
-    
+color: #da190f;
     height: 6.5rem; /*define a altura da logo */
  border-radius: 100%; /*torna a logo circular*/
 
 }
+.div-logo {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.8rem; 
+  
+}
+.div-logo:hover {
+     color: var(--main-color);  /* mudar a cor do icone ao passar o mause*/
+}
+   
+
+ h4 {
+    font-size: 1rem;   
+    
+}
+
 
 .ul-header {
     display: flex; /*  display: flex diixa a home lado a lado*/
@@ -90,18 +113,23 @@ padding-bottom: 0.5rem;
 }
 
 .icons {
-     /* não estou mexendo nos icones, e sim na caixa ok??*/
+     /* não estou mexendo nos icones, e sim na caixa */
  display: flex;
  align-items: center;
  gap: 15px;
 
+
 }
 
 .icons i {
-    /*estou mexendo nos icones*/
-    color: #fff;  /* cor branca para icones*/
-    cursor: pointer;  /* altera o cursor ao passar sobre o icones ao passar o mause*/
-    font-size: 2.5rem; /* tamanho do icones em rem*/
+   
+     color: white;
+    /* cor branca para icones*/
+    cursor: pointer;
+    /* altera o cursor ao passar sobre o icones*/
+    font-size: 2.5rem;
+    /* tamanho do icones*/
+    
    
 }
 
