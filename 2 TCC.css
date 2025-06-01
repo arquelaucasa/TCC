@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
+    /*paletas escolhida*/
+
     --main-color: #a8bdb1;
     /*--cor principal: #a8bdb1;*/
     --bg: #f8f8f5;
@@ -13,8 +15,6 @@
 }
 
     
-
-
 * {
     margin: 0;
     /*margem*/
@@ -64,8 +64,6 @@ header {
 
 background-color: #a8bdb1;
     /*tira depois o background-color: #a8bdb1*/
-
-    /* background: var(--bg);*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -152,23 +150,19 @@ h4 {
 .icons i {
 
 color: #3d3d3d;
-    /* cor branca para icones*/
+    /* cor para icones*/
     cursor: pointer;
     /* altera o cursor ao passar sobre o icones*/
     font-size: 2.5rem;
     /* tamanho do icones*/
-
-
 }
 
 .icons i:hover {
     color: #f8f8f5;
     /* mudar a cor do icone ao passar o mause*/
-
 }
 
-section {
-    display: flex;
+.container {
     position: relative;
     /*add img sem repetição*/
     min-height: 85vh;
@@ -179,76 +173,23 @@ section {
     /*posicionamento da imagem*/
     border-bottom: var(--border);
     /*adiciona borda inferior*/
-  color: #3d3d3d;
-
 }
 
-.section1 {
-    background: url(imagem/imagens/pele/pele.jpg\ 1) no-repeat;
-    /*add img sem repetição*/
-    background-size: cover;
 
-}
 
-.btn {
-    padding: 1rem;
-    background-color: #a8bdb1;
-   color: #3d3d3d;
-    border-radius: 0.5rem;
-}
-
-.btn:hover {
-    color: #0c0c14;
-    background-color: #4b4b4b;
-
-}
-
-.section1 h1 {
-    color: #3d3d3d;
-
-}
-
-.section1 p {
-    color: #3d3d3d;
-    font-size: 2rem;
-}
-
-.section2 {
-    color: #3d3d3d;
-    font-size: 2rem;
-    background: url(imagem/imagens/pes/spa\ pes.jpg) no-repeat;
-    background-size: cover;
-
-}
-
-.section3 {
-   color: #3d3d3d;
-    font-size: 2rem;
-    background: url(imagem/imagens/sobrancelha/sobrancelha.jpg) no-repeat;
-    background-size: cover;
-
-}
-
-.div-section a {
-   color: #3d3d3d;
-}
 
 footer {
 
 background-color: #a8bdb1;
     padding: 4rem;
     display: flex;
-    gap: 6rem;
+    gap: 8rem;
     font-size: 1rem;
     font-weight: lighter;
     /* peso dea fonte mais leve*/
     line-height: 1.8;
     /*espaçamento entre linhas */
     color: #3d3d3d;
-
-
-
-
 
 }
 
@@ -265,19 +206,15 @@ footer a {
 .div-ende {
     width: 10.3rem;
     height: 15rem;
-  
-
 }
 
 .footer-i {
+     /* não estou mexendo nos icones, e sim na caixa */
     width: 13rem;
     height: 10rem;
-    /* não estou mexendo nos icones, e sim na caixa */
     display: flex;
     align-items: baseline;
     gap: 15px;
-
-
 }
 
 .footer-i i {
@@ -303,5 +240,59 @@ footer a {
 
 .foot ul li:hover {
    color: #f8f8f5;
+}
+
+ 
+  
+
+
+section1 
+   /* background: url(imagem/imagens/pele/pele.jpg\ 1) no-repeat;*/
+    /*add img sem repetição*/
+    background-size: cover;
+
+
+
+btn 
+    padding: 1rem;
+    background-color: #a8bdb1;
+   color: #3d3d3d;
+    border-radius: 0.5rem;
+
+
+btn:hover 
+    color: #0c0c14;
+    background-color: #4b4b4b;
+
+
+
+section1 h1 
+    color: #3d3d3d;
+
+
+
+section1 p 
+    color: #3d3d3d;
+    font-size: 2rem;
+
+
+section2 
+    color: #3d3d3d;
+    font-size: 2rem;
+    background: url(imagem/imagens/pes/spa\ pes.jpg) no-repeat;
+    background-size: cover;
+
+
+
+section3 {
+   color: #3d3d3d;
+    font-size: 2rem;
+    background: url(imagem/imagens/sobrancelha/sobrancelha.jpg) no-repeat;
+    background-size: cover;
+
+
+
+div-section a 
+   color: #3d3d3d;
 }
 

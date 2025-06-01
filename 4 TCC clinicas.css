@@ -1,0 +1,298 @@
+*
+/* importa a fonte "boboto" do google fonts em divversos estilos e pesos*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /*paletas escolhida*/
+
+    --main-color: #a8bdb1;
+    /*--cor principal: #a8bdb1;*/
+    --bg: #f8f8f5;
+    --br-card: #3d3d3d;
+    --border: 0.1rem #d6c7b0;
+    /*fronteira*/
+
+}
+
+    
+* {
+    margin: 0;
+    /*margem*/
+    padding: 0;
+    /*preenchimento*/
+    box-sizing: border-box;
+    /*dimensionamento de caixa*/
+
+    font-family: 'Roboto', 'sans-serif';
+    /*família de fontes Roboto sem serifa*/
+
+    text-decoration: none;
+    /*decoração de texto nenhuma*/
+    text-transform: capitalize;
+    /*transformação de texto: capitalizar*/
+
+    transition: 0.2s linear;
+    /*transição*/
+
+    outline: none;
+    /*não delinear nenhum (esboço: nenhum*/
+
+    border: none;
+    /*fronteira: nenhuma*/
+
+    scroll-behavior: smooth;
+    /*comportamento de rolagem: suave*/
+
+}
+
+html {
+    font-size: 68.5%;
+    /*configuração do font-size para 62.5%, facilitando o uso do rem (1rem = 10px)*/
+    overflow-x: hidden;
+    /*estouro x oculto*/
+
+}
+
+body {
+    /*background: var(--bg); /*plano de fundo: var*/
+    background-color: var(--bg);
+
+}
+
+/*inicio do header*/
+header {
+
+background-color: #a8bdb1;
+    /*tira depois o background-color: #a8bdb1*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    /* explicação do uso da porcentagem*/
+    border-bottom: var(--border);
+    position: sticky;
+    /* sticky posição do header*/
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+
+}
+
+.logo img {
+ 
+    height: 6.5rem;
+    /*define a altura da logo */
+    border-radius: 100%;
+    /*torna a logo circular*/
+
+}
+
+.div-logo {
+   color: #3d3d3d;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.8rem;
+
+}
+
+.div-logo:hover {
+    color: #f8f8f5;
+    /* mudar a cor do icone ao passar o mause*/
+}
+
+
+h4 {
+    font-size: 1rem;
+
+}
+
+
+.ul-header {
+    display: flex;
+    /*  display: flex diixa a home lado a lado*/
+    gap: 15px;
+    /* gap: deixa a home no topo*/
+    list-style: none;
+    /* tirá as bolinhas das homes sempre na ul*/
+
+}
+
+.ul-header li a {
+
+    color: #3d3d3d;
+    /*cor do texto*/
+    font-family: 1.6rem;
+    /* tamanho da fonte do texto*/
+
+}
+
+/*inicio do hover*/
+.ul-header li a:hover {
+    color: #f8f8f5;
+    /* hover mudar a cor do texto ao passar o mause no hover */
+    border-bottom: 0.1rem solid var(--main-color);
+    /* hover adicionar uma linha ao texto quando passa o mause inferior no hover*/
+    padding-bottom: 0.5rem;
+    /*adiciona espaçamento inferior no hover*/
+}
+
+.icons {
+    /* não estou mexendo nos icones, e sim na caixa */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+
+}
+
+.icons i {
+
+color: #3d3d3d;
+    /* cor para icones*/
+    cursor: pointer;
+    /* altera o cursor ao passar sobre o icones*/
+    font-size: 2.5rem;
+    /* tamanho do icones*/
+}
+
+.icons i:hover {
+    color: #f8f8f5;
+    /* mudar a cor do icone ao passar o mause*/
+}
+
+.container {
+    position: relative;
+    /*add img sem repetição*/
+    min-height: 85vh;
+    align-items: center;
+    min-height: 85vh;
+    /*altura minima da sessão*/
+    background-position: center;
+    /*posicionamento da imagem*/
+    border-bottom: var(--border);
+    /*adiciona borda inferior*/
+}
+
+
+
+
+footer {
+
+background-color: #a8bdb1;
+    padding: 4rem;
+    display: flex;
+    gap: 8rem;
+    font-size: 1rem;
+    font-weight: lighter;
+    /* peso dea fonte mais leve*/
+    line-height: 1.8;
+    /*espaçamento entre linhas */
+    color: #3d3d3d;
+
+}
+
+footer a {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    /*espaçamento entre linhas */
+    padding: 1rem 0;
+  color: #3d3d3d;
+
+}
+
+.div-ende {
+    width: 10.3rem;
+    height: 15rem;
+}
+
+.footer-i {
+     /* não estou mexendo nos icones, e sim na caixa */
+    width: 13rem;
+    height: 10rem;
+    display: flex;
+    align-items: baseline;
+    gap: 15px;
+}
+
+.footer-i i {
+
+   color: #3d3d3d; /* tira mudaça de paleteta de cores*/
+    /* cor branca para icones*/
+    cursor: pointer;
+    /* altera o cursor ao passar sobre o icones*/
+    font-size: 2.5rem;
+    /* tamanho do icones*/
+
+
+}
+
+.footer-i i:hover {
+ color: #f8f8f5; /* tira mudaça de paleteta de cores*/
+    /* mudar a cor do icone ao passar o mause*/
+}
+
+.foot ul li {
+    list-style: none;
+} 
+
+.foot ul li:hover {
+   color: #f8f8f5;
+}
+
+ 
+  
+
+
+section1 
+   /* background: url(imagem/imagens/pele/pele.jpg\ 1) no-repeat;*/
+    /*add img sem repetição*/
+    background-size: cover;
+
+
+
+btn 
+    padding: 1rem;
+    background-color: #a8bdb1;
+   color: #3d3d3d;
+    border-radius: 0.5rem;
+
+
+btn:hover 
+    color: #0c0c14;
+    background-color: #4b4b4b;
+
+
+
+section1 h1 
+    color: #3d3d3d;
+
+
+
+section1 p 
+    color: #3d3d3d;
+    font-size: 2rem;
+
+
+section2 
+    color: #3d3d3d;
+    font-size: 2rem;
+    background: url(imagem/imagens/pes/spa\ pes.jpg) no-repeat;
+    background-size: cover;
+
+
+
+section3 {
+   color: #3d3d3d;
+    font-size: 2rem;
+    background: url(imagem/imagens/sobrancelha/sobrancelha.jpg) no-repeat;
+    background-size: cover;
+
+
+
+div-section a 
+   color: #3d3d3d;
+}
+
