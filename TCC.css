@@ -184,7 +184,7 @@ section {
 }
 
 .section1 {
-    background: url(imagem/clinica.jpg) no-repeat;
+   /* background: url(imagem/clinica.jpg) no-repeat;*/
     /*add img sem repetição*/
     background-size: cover;
 
@@ -211,12 +211,21 @@ section {
 .section1 p {
     color: #fff;
     font-size: 2rem;
+    /* tamanho da fonte para o parágrafos*/
+    font-weight: lighter;
+    /* peso dea fonte mais leve*/
+    line-height: 1.8;
+    /*espaçamento entre linhas */
+    padding: 1rem 0;
+    /*wapaçamento interno*/
+    color: #fff;
+    /*cor da letra*/
 }
 
 .section2 {
     color: #fff;
     font-size: 2rem;
-    background: url(imagem/Clinica\ 2.png) no-repeat;
+    /*background: url(imagem/Clinica\ 2.png) no-repeat;*/
     background-size: cover;
 
 }
@@ -224,31 +233,28 @@ section {
 .section3 {
     color: #fff;
     font-size: 2rem;
-    background: url(imagem/Clinica\ 3.png) no-repeat;
+   /* background: url(imagem/Clinica\ 3.png) no-repeat;*/
     background-size: cover;
 
 }
 
 .div-section a {
     color: #fff;
+    font-size: 1rem;
 }
 
 footer {
-
+   color: #fff;
     background-color: #f59a9a;
     padding: 4rem;
     display: flex;
-    gap: 6rem;
+    gap: 10rem;
     font-size: 1rem;
     font-weight: lighter;
     /* peso dea fonte mais leve*/
     line-height: 1.8;
     /*espaçamento entre linhas */
-    color: #fff;
-
-
-
-
+    color: var(--main-color);
 
 }
 
@@ -258,25 +264,25 @@ footer a {
     line-height: 1.8;
     /*espaçamento entre linhas */
     padding: 1rem 0;
-    color: #fff;
+color: #fff;
 
 }
 
 .div-ende {
     width: 10.3rem;
     height: 15rem;
-  
-
+   
+ 
 }
 
 .footer-i {
-    width: 13rem;
-    height: 10rem;
+    width: 0rem;
+    height: 0rem;
     /* não estou mexendo nos icones, e sim na caixa */
     display: flex;
     align-items: baseline;
-    gap: 15px;
-
+    gap: 2rem;
+    
 
 }
 
@@ -286,7 +292,7 @@ footer a {
     /* cor branca para icones*/
     cursor: pointer;
     /* altera o cursor ao passar sobre o icones*/
-    font-size: 2.5rem;
+    font-size: 2rem;
     /* tamanho do icones*/
 
 
@@ -295,13 +301,22 @@ footer a {
 .footer-i i:hover {
     color: var(--main-color); /* tira mudaça de paleteta de cores*/
     /* mudar a cor do icone ao passar o mause*/
+  
 }
 
 .foot ul li {
     list-style: none;
+  
 } 
 
 .foot ul li:hover {
-    color: var(--main-color);
+  color: var(--main-color);
+
+    
+}
+  
+.div-ende :hover {
+color: var(--main-color);
+
 }
 
