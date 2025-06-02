@@ -175,12 +175,16 @@ color: #3d3d3d;
     /*adiciona borda inferior*/
 }
 
-.section1 {
+.content-1 {
    /* background: url(imagem/clinica.jpg) no-repeat;*/
     /*add img sem repetição*/
     background-size: cover;
-
+    background-color: #d6c7b0;
+    background-image: url(imagem/imagens/pele/pele.jpg);
+   
  }
+
+
 
 
 .btn {
@@ -196,8 +200,9 @@ color: #3d3d3d;
 
 }
 
-.section1 h1 {
-    color: #fff;
+.content-1 h1 {
+    color: black;
+    font-size: 2.5rem;
 
 }
 
