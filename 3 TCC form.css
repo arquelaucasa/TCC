@@ -54,9 +54,7 @@ html {
 }
 
 body {
-    /*background: var(--bg); /*plano de fundo: var*/
-    background-color: var(--bg);
-
+    background-color: #f8f8f5;
 }
 
 /*inicio do header*/
@@ -163,18 +161,96 @@ color: #3d3d3d;
 }
 
 .container {
-    position: relative;
-    /*add img sem repetição*/
-    min-height: 85vh;
-    align-items: center;
+ display: flex;
+  position: relative;
+    /* perite posicionamento*/
     min-height: 85vh;
     /*altura minima da sessão*/
+    background-size: cover;
+    /*preenchimento da imagem*/
     background-position: center;
     /*posicionamento da imagem*/
-    border-bottom: var(--border);
-    /*adiciona borda inferior*/
+   /*adiciona borda inferior*/
+
+}
+.container.image {
+    flex: 1 1 45rem; /* define o tamnho flexivel do elemento: base 45rem, podeno creser ou encolher, ou seja 
+    faz com que passa ser adaptável para telas grande ou pequenas*/
+   
+}
+.image {
+      width: 100%; /*faz com que a imagem ocupe toda a largura do container (.image)*/
+
 }
 
+.content {
+   background-color: #3d3d3d;
+   gap: 3rem;
+
+  
+}
+.div-pai {
+color: red;
+
+
+
+}
+
+.div-box h1 {
+    font-size: 4rem;
+    color: #f8f8f5;
+  
+ 
+  
+}
+.div-box p {
+    font-size: 1.5rem;
+    color: #f8f8f5;
+
+}
+
+.content .label {
+background-color: black;
+font-size: 1.2rem;
+
+
+
+
+ 
+}
+
+.div-1 {
+
+  
+}
+
+.div-2 {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.div-3 {
+    gap: 0.5rem;
+    display: flex;
+}
+
+.btn {
+   width: 6rem;
+   height: 2rem;
+   background: red;
+    color: black;
+    font-size: 1.5rem;
+    border-radius: 0.2rem;
+    text-align: center;
+}
+.camp {
+    width: 12rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+   background-color: aqua;
+
+}
 
 
 
