@@ -159,6 +159,10 @@ color: #3d3d3d;
     color: #f8f8f5;
     /* mudar a cor do icone ao passar o mause*/
 }
+/*fim do header*/
+
+
+/*inicio do container*/
 
 .container {
  display: flex;
@@ -166,18 +170,11 @@ color: #3d3d3d;
     /* perite posicionamento*/
     min-height: 85vh;
     /*altura minima da sessão*/
-    background-size: cover;
-    /*preenchimento da imagem*/
-    background-position: center;
-    /*posicionamento da imagem*/
-   /*adiciona borda inferior*/
+    
 
 }
-.container.image {
-    flex: 1 1 45rem; /* define o tamnho flexivel do elemento: base 45rem, podeno creser ou encolher, ou seja 
-    faz com que passa ser adaptável para telas grande ou pequenas*/
-   
-}
+
+
 .image {
       width: 100%; /*faz com que a imagem ocupe toda a largura do container (.image)*/
 
@@ -186,21 +183,15 @@ color: #3d3d3d;
 .content {
    background-color: #3d3d3d;
    gap: 3rem;
-
   
 }
-.div-pai {
-color: red;
 
 
-
-}
 
 .div-box h1 {
     font-size: 4rem;
     color: #f8f8f5;
-  
- 
+
   
 }
 .div-box p {
@@ -210,49 +201,9 @@ color: red;
 }
 
 .content .label {
-background-color: black;
+
 font-size: 1.2rem;
-
-
-
-
- 
-}
-
-.div-1 {
-
-  
-}
-
-.div-2 {
-    display: flex;
-    gap: 0.5rem;
-}
-
-.div-3 {
-    gap: 0.5rem;
-    display: flex;
-}
-
-.btn {
-   width: 6rem;
-   height: 2rem;
-   background: red;
-    color: black;
-    font-size: 1.5rem;
-    border-radius: 0.2rem;
-    text-align: center;
-}
-.camp {
-    width: 12rem;
-    height: 2rem;
-    text-align: center;
-    font-size: 1.2rem;
-   background-color: aqua;
-
-}
-
-
+ }
 
 footer {
 
@@ -317,58 +268,3 @@ footer a {
 .foot ul li:hover {
    color: #f8f8f5;
 }
-
- 
-  
-
-
-section1 
-   /* background: url(imagem/imagens/pele/pele.jpg\ 1) no-repeat;*/
-    /*add img sem repetição*/
-    background-size: cover;
-
-
-
-btn 
-    padding: 1rem;
-    background-color: #a8bdb1;
-   color: #3d3d3d;
-    border-radius: 0.5rem;
-
-
-btn:hover 
-    color: #0c0c14;
-    background-color: #4b4b4b;
-
-
-
-section1 h1 
-    color: #3d3d3d;
-
-
-
-section1 p 
-    color: #3d3d3d;
-    font-size: 2rem;
-
-
-section2 
-    color: #3d3d3d;
-    font-size: 2rem;
-    background: url(imagem/imagens/pes/spa\ pes.jpg) no-repeat;
-    background-size: cover;
-
-
-
-section3 {
-   color: #3d3d3d;
-    font-size: 2rem;
-    background: url(imagem/imagens/sobrancelha/sobrancelha.jpg) no-repeat;
-    background-size: cover;
-
-
-
-div-section a 
-   color: #3d3d3d;
-}
-
