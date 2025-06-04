@@ -270,7 +270,7 @@ footer a {
     line-height: 1.8;
     /*espaçamento entre linhas */
     padding: 1rem 0;
-color: #fff;
+color: #3d3d3d;
 
 }
 
@@ -291,14 +291,6 @@ color: #fff;
 
 }
 
-.footer-i {
-     /* não estou mexendo nos icones, e sim na caixa */
-    width: 13rem;
-    height: 10rem;
-    display: flex;
-    align-items: baseline;
-    gap: 15px;
-}
 
 .footer-i i {
 
@@ -320,18 +312,17 @@ color: #fff;
 
 .foot ul li {
     list-style: none;
-  
 } 
 
-.foot ul li:hover {
+.foot ul li a :hover {
 
-  color: var(--main-color);
+  color: #f8f8f5;
 
     
 }
   
 .div-ende :hover {
-color: var(--main-color);
+color: #f8f8f5;
 
  }
    
