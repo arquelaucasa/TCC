@@ -197,6 +197,14 @@ gap: 2rem;
 
 
 footer {
+   color: #fff;
+    background-color: #f59a9a;
+    padding: 4rem;
+    display: flex;
+    gap: 10rem;
+ }
+
+footer {
 
 background-color: #a8bdb1;
     padding: 4rem;
@@ -217,23 +225,27 @@ footer a {
     line-height: 1.8;
     /*espaçamento entre linhas */
     padding: 1rem 0;
-  color: #3d3d3d;
+color: #3d3d3d;
 
 }
 
 .div-ende {
     width: 10.3rem;
-    height: 15rem;
+    height: 15rem;  
+ 
 }
 
 .footer-i {
-     /* não estou mexendo nos icones, e sim na caixa */
-    width: 13rem;
-    height: 10rem;
+    width: 0rem;
+    height: 0rem;
+    /* não estou mexendo nos icones, e sim na caixa */
     display: flex;
     align-items: baseline;
-    gap: 15px;
+    gap: 2rem;
+    
+
 }
+
 
 .footer-i i {
 
@@ -241,7 +253,7 @@ footer a {
     /* cor branca para icones*/
     cursor: pointer;
     /* altera o cursor ao passar sobre o icones*/
-    font-size: 2.5rem;
+    font-size: 2rem;
     /* tamanho do icones*/
 
 
@@ -250,15 +262,41 @@ footer a {
 .footer-i i:hover {
  color: #f8f8f5; /* tira mudaça de paleteta de cores*/
     /* mudar a cor do icone ao passar o mause*/
+  
 }
 
 .foot ul li {
     list-style: none;
 } 
 
-.foot ul li:hover {
-   color: #f8f8f5;
+.foot ul li a:hover {
+
+  color: #f8f8f5;
+
+    
 }
+  
+.div-ende a:hover {
+color: #f8f8f5;
+
+ }
+  
+.botao-whats {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    width: 5.1rem;
+    height: 5.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    z-index: 1000;
+}
+   
 
  
   
