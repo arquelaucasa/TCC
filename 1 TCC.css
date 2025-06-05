@@ -162,21 +162,111 @@ color: #3d3d3d;
     /* mudar a cor do icone ao passar o mause*/
 }
 
-.container {
-    position: relative;
-    /*add img sem repetição*/
-    min-height: 85vh;
-    align-items: center;
-    min-height: 85vh;
+.container-1 {
+      position: relative;
+    min-height: 100vh;
     /*altura minima da sessão*/
-    background-position: center;
-    /*posicionamento da imagem*/
-    border-bottom: var(--border);
-    /*adiciona borda inferior*/
+   background-size: cover;
+    /*preenchimento da imagem*/
+   background-position: center;
+    background-image: url(imagem/imagens/pele/pele.jpg);
+      /*add img sem repetição*/
+      background-repeat: no-repeat;
+      
+
+   
+ 
+}
+.content-1 { 
+    display: table;
+
+     
 }
 
 
 
+.btn {
+    background-color: #3d3d3d;
+    margin-top: 1rem;
+    padding: 0.9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+  border-radius: 0.5rem;
+    display: inline-block; 
+ 
+  
+}
+
+
+
+
+.btn:hover {
+    background-color: red;
+    border-radius: 0.7rem;
+
+}
+.div-box-1 {
+    color: #fff ;
+    font-size: 2.5rem;
+    /* tamanho da fonte para o parágrafos*/
+    font-weight: lighter;
+    /* peso dea fonte mais leve*/
+    line-height: 1.8;
+    /*espaçamento entre linhas */
+   
+     
+    
+ 
+    
+}
+
+.div-box h1 {
+    color: #fff;
+    
+   
+ 
+}
+.tex-ver {
+   
+}
+
+.ver {
+    vertical-align: middle;
+    display: table-cell;
+
+}
+
+
+
+
+.section2 {
+    color: #fff;
+    font-size: 2rem;
+    background: url(imagem/Clinica\ 2.png) no-repeat;
+    background-size: cover;
+
+}
+
+.section3 {
+    color: #fff;
+    font-size: 2rem;
+    background: url(imagem/Clinica\ 3.png) no-repeat;*
+    background-size: cover;
+
+}
+
+.div-section a {
+    color: #fff;
+    font-size: 1rem;
+}
+
+footer {
+   color: #fff;
+    background-color: #f59a9a;
+    padding: 4rem;
+    display: flex;
+    gap: 10rem;
+ }
 
 footer {
 
@@ -199,23 +289,27 @@ footer a {
     line-height: 1.8;
     /*espaçamento entre linhas */
     padding: 1rem 0;
-  color: #3d3d3d;
+color: #3d3d3d;
 
 }
 
 .div-ende {
     width: 10.3rem;
-    height: 15rem;
+    height: 15rem;  
+ 
 }
 
 .footer-i {
-     /* não estou mexendo nos icones, e sim na caixa */
-    width: 13rem;
-    height: 10rem;
+    width: 0rem;
+    height: 0rem;
+    /* não estou mexendo nos icones, e sim na caixa */
     display: flex;
     align-items: baseline;
-    gap: 15px;
+    gap: 2rem;
+    
+
 }
+
 
 .footer-i i {
 
@@ -223,7 +317,7 @@ footer a {
     /* cor branca para icones*/
     cursor: pointer;
     /* altera o cursor ao passar sobre o icones*/
-    font-size: 2.5rem;
+    font-size: 2rem;
     /* tamanho do icones*/
 
 
@@ -232,67 +326,38 @@ footer a {
 .footer-i i:hover {
  color: #f8f8f5; /* tira mudaça de paleteta de cores*/
     /* mudar a cor do icone ao passar o mause*/
+  
 }
 
 .foot ul li {
     list-style: none;
 } 
 
-.foot ul li:hover {
-   color: #f8f8f5;
-}
+.foot ul li a:hover {
 
- 
+  color: #f8f8f5;
+
+    
+}
   
+.div-ende a:hover {
+color: #f8f8f5;
 
-
-section1 
-   /* background: url(imagem/imagens/pele/pele.jpg\ 1) no-repeat;*/
-    /*add img sem repetição*/
-    background-size: cover;
-
-
-
-btn 
-    padding: 1rem;
-    background-color: #a8bdb1;
-   color: #3d3d3d;
-    border-radius: 0.5rem;
-
-
-btn:hover 
-    color: #0c0c14;
-    background-color: #4b4b4b;
-
-
-
-section1 h1 
-    color: #3d3d3d;
-
-
-
-section1 p 
-    color: #3d3d3d;
+ }
+  
+.botao-whats {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    width: 5.1rem;
+    height: 5.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 2rem;
-
-
-section2 
-    color: #3d3d3d;
-    font-size: 2rem;
-    background: url(imagem/imagens/pes/spa\ pes.jpg) no-repeat;
-    background-size: cover;
-
-
-
-section3 {
-   color: #3d3d3d;
-    font-size: 2rem;
-    background: url(imagem/imagens/sobrancelha/sobrancelha.jpg) no-repeat;
-    background-size: cover;
-
-
-
-div-section a 
-   color: #3d3d3d;
+    z-index: 1000;
 }
-
+   
