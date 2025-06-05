@@ -162,15 +162,8 @@ color: #3d3d3d;
     /* mudar a cor do icone ao passar o mause*/
 }
 
-.container {
-
-   
- 
-}
-.content-1 {
-     display: flex;
-    align-items: center;
-   position: relative;
+.container-1 {
+      position: relative;
     min-height: 100vh;
     /*altura minima da sessão*/
    background-size: cover;
@@ -179,6 +172,15 @@ color: #3d3d3d;
     background-image: url(imagem/imagens/pele/pele.jpg);
       /*add img sem repetição*/
       background-repeat: no-repeat;
+      
+
+   
+ 
+}
+.content-1 { 
+    display: table;
+
+     
 }
 
 
@@ -190,11 +192,8 @@ color: #3d3d3d;
     font-size: 1.7rem;
     color: #fff;
   border-radius: 0.5rem;
-    display: inline-block;
-   
-
-     
-      
+    display: inline-block; 
+ 
   
 }
 
@@ -203,34 +202,42 @@ color: #3d3d3d;
 
 .btn:hover {
     background-color: red;
-   
     border-radius: 0.7rem;
 
-  
-
 }
-
-.content-1 h1 {
-    color: #fff;
-    font-size: 2.5rem;
-
-}
-
-.div-box p {
-    color: #fff;
+.div-box-1 {
+    color: #fff ;
     font-size: 2.5rem;
     /* tamanho da fonte para o parágrafos*/
     font-weight: lighter;
     /* peso dea fonte mais leve*/
     line-height: 1.8;
     /*espaçamento entre linhas */
-    padding: 1rem 0;
-    /*wapaçamento interno*/
-    gap: 10rem;
-  
-  
-  
+   
+     
+    
+ 
+    
 }
+
+.div-box h1 {
+    color: #fff;
+    
+   
+ 
+}
+.tex-ver {
+   
+}
+
+.ver {
+    vertical-align: middle;
+    display: table-cell;
+
+}
+
+
+
 
 .section2 {
     color: #fff;

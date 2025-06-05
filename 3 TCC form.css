@@ -161,10 +161,12 @@ color: #3d3d3d;
 }
 /*fim do header*/
 
+/*Pagina da Natalia css*/
 
 /*inicio do container*/
 
-.container {
+.container-1 {
+
  display: flex;
   position: relative;
     /* perite posicionamento*/
@@ -173,22 +175,6 @@ color: #3d3d3d;
     
 
 }
-
-.content-1 {
-    
-}
-
-.image {
-      width: 100%; /*faz com que a imagem ocupe toda a largura do container (.image)*/
-
-}
-
-.content {
-   background-color: #3d3d3d;
-   gap: 3rem;
-  
-}
-
 
 
 .div-box h1 {
@@ -207,6 +193,8 @@ color: #3d3d3d;
 
 font-size: 1.2rem;
  }
+
+/* fim da Pagina da Natalia css*/
 
 footer {
    color: #fff;

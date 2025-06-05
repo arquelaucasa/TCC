@@ -161,8 +161,9 @@ color: #3d3d3d;
     color: #f8f8f5;
     /* mudar a cor do icone ao passar o mause*/
 }
+/*Pagina da silvania css*/
 
-.container {
+.container-1 {
 background-color: 0;
 padding: 0;
 gap: 2rem;
@@ -194,6 +195,8 @@ gap: 2rem;
    
  }
 
+
+/*fim da Pagina da silvania css*/
 
 
 footer {
