@@ -306,14 +306,18 @@ h1 {
    
 }
 .div-box3 {
-    text-align: center;
-      
 
+   
 
 }
 .p3 {
 color: #fff;
 font-size: 2rem;
+
+    align-items: center;
+    line-height: 1.8;
+   
+
 
 
 }
@@ -323,6 +327,8 @@ font-size: 2rem;
     color: #fff;
     font-size: 3rem;
 }
+
+
 
 
 
