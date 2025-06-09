@@ -54,9 +54,9 @@ html {
 }
 
 body {
+   /* background-color: #a8bdb1;*/
     /*background: var(--bg); /*plano de fundo: var*/
-    background-color: var(--bg);
-
+   
 }
 
 /*inicio do header*/
@@ -178,6 +178,7 @@ color: #3d3d3d;
    
  
 }
+
 .content-1 { 
     display: table;
     
@@ -186,11 +187,11 @@ color: #3d3d3d;
 
 
 .btn {
-    background-color: #3d3d3d;
+ background-color: #3d3d3d;
     margin-top: 1rem;
     padding: 0.9rem 3rem;
     font-size: 1.7rem;
-    color: #fff;
+   color: #fff;
   border-radius: 0.5rem;
   
 }
@@ -201,12 +202,12 @@ color: #3d3d3d;
 .btn:hover {
     background-color: rgb(145, 255, 0);
     border-radius: 0.7rem;
-    color: black;
+    color: #000;
  
 
 }
 .div-box-1 {
-    color: #fff ;
+    color: #fff;
     font-size: 2.5rem;
     /* tamanho da fonte para o parágrafos*/
     font-weight: lighter;
@@ -236,11 +237,54 @@ h1 {
 
 }
 
+.div-box-2 .image {
+    height: 2.5rem 0;
+    
+}
+.container-2 {
+
+   background-color: #a8bdb1;
+ /*background-image: url(imagem/section2.jpg);*/
+ 
+     
+}
+
+.container-2 h2 {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+
+
+}
+.container-2 span {
+color: #3d3d3d;
+}
+
+.div-box-2 {
+    background-color: #a8bdb1;
+     flex-wrap: wrap;
+    /*permite que os itens quebrem para a proxima limha se necessário*/   
+}
+.content-2 {
+    
+}
+    
+
+.div-box-2 p {
+       font-size: 2rem;
+       color: #fff;
+   
+  
+}
 
 
 
+.container-3 {
 
 
+  
+
+}
 
 
 
