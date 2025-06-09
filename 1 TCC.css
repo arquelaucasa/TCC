@@ -14,7 +14,7 @@
 
 }
 
-    
+
 * {
     margin: 0;
     /*margem*/
@@ -28,8 +28,9 @@
 
     text-decoration: none;
     /*decoração de texto nenhuma*/
-    text-transform: capitalize;
-    /*transformação de texto: capitalizar*/
+
+   /* text-transform: capitalize;*/
+    /* text-transform: capitalize; transformação de texto: capitalizar em letras mauscula*/
 
     transition: 0.2s linear;
     /*transição*/
@@ -54,15 +55,17 @@ html {
 }
 
 body {
-   /* background-color: #a8bdb1;*/
+    flex-wrap: wrap;
+    /*permite que os itens quebrem para a proxima limha se necessário*/
+    /* background-color: #a8bdb1;*/
     /*background: var(--bg); /*plano de fundo: var*/
-   
+
 }
 
 /*inicio do header*/
 header {
 
-background-color: #a8bdb1;
+    background-color: #a8bdb1;
     /*tira depois o background-color: #a8bdb1*/
     display: flex;
     align-items: center;
@@ -80,7 +83,7 @@ background-color: #a8bdb1;
 }
 
 .logo img {
- 
+
     height: 6.5rem;
     /*define a altura da logo */
     border-radius: 100%;
@@ -89,7 +92,7 @@ background-color: #a8bdb1;
 }
 
 .div-logo {
-   color: #3d3d3d;
+    color: #3d3d3d;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -149,7 +152,7 @@ h4 {
 
 .icons i {
 
-color: #3d3d3d;
+    color: #3d3d3d;
     /* cor para icones*/
     cursor: pointer;
     /* altera o cursor ao passar sobre o icones*/
@@ -163,37 +166,34 @@ color: #3d3d3d;
 }
 
 .container-1 {
-      position: relative;
+    position: relative;
     min-height: 100vh;
     /*altura minima da sessão*/
-   background-size: cover;
+    background-size: cover;
     /*preenchimento da imagem*/
-   background-position: center;
+    background-position: center;
     background-image: url(imagem/imagens/pele/pele.jpg);
-      /*add img sem repetição*/
+    /*add img sem repetição*/
+    line-height: 1.8;
    
-        
-      
-
-   
- 
+    
 }
 
-.content-1 { 
-    display: table;
+.content-1 {
+
     
 }
 
 
 
 .btn {
- background-color: #3d3d3d;
+    background-color: #3d3d3d;
     margin-top: 1rem;
     padding: 0.9rem 3rem;
     font-size: 1.7rem;
-   color: #fff;
-  border-radius: 0.5rem;
-  
+    color: #fff;
+    border-radius: 0.5rem;
+
 }
 
 
@@ -203,30 +203,22 @@ color: #3d3d3d;
     background-color: rgb(145, 255, 0);
     border-radius: 0.7rem;
     color: #000;
- 
+
 
 }
+
 .div-box-1 {
+  gap: 5rem;
     color: #fff;
-    font-size: 2.5rem;
-    /* tamanho da fonte para o parágrafos*/
-    font-weight: lighter;
-    /* peso dea fonte mais leve*/
-    line-height: 1.8;
-    /*espaçamento entre linhas */
-   
-     
-    
- 
-    
+    font-size: 2rem;
+
 }
 
 h1 {
     color: #fff;
    
-    
-   
- 
+
+
 }
 
 
@@ -237,69 +229,115 @@ h1 {
 
 }
 
-.div-box-2 .image {
-    height: 2.5rem 0;
-    
-}
+
+
 .container-2 {
 
-   background-color: #a8bdb1;
- /*background-image: url(imagem/section2.jpg);*/
- 
-     
+    background-color: #a8bdb1;
+    align-items: center;
+
 }
 
 .container-2 h2 {
+    text-decoration: uppercase;
+    /*dixa o texto em alta */
+    background-color: #25d366;
+    text-align: center;
     color: #fff;
     font-size: 3rem;
-    text-align: center;
-
-
-}
-.container-2 span {
-color: #3d3d3d;
 }
 
-.div-box-2 {
-    background-color: #a8bdb1;
-     flex-wrap: wrap;
-    /*permite que os itens quebrem para a proxima limha se necessário*/   
+.container-2 h2 span {
+    color: #3d3d3d;
+
 }
+
 .content-2 {
-    
-}
-    
+    display: flex;
+    text-align: center;
+    align-items: center;
+    /*alinha o texto vetical mente*/
+    color: #fff;
+    font-size: 2rem;
+    text-align: justify;
+    gap: 5rem;
+    line-height: 1.8;
+    /*espaçamento entre linhas */
+  padding: 1rem;
 
-.div-box-2 p {
-       font-size: 2rem;
-       color: #fff;
-   
-  
+
+
+
 }
+
+.p2 {
+    color: #fff;
+    font-size: 3rem;
+
+}
+
+.p2 span {
+    color: #3d3d3d;
+}
+
+.image {
+    flex: 1 1 45rem;
+    /* define o tamnho flexivel do elemento: base 45rem, podeno creser ou encolher, ou seja 
+    faz com que passa ser adaptável para telas grande ou pequenas*/
+
+}
+
 
 
 
 .container-3 {
+  background-image: url(imagem/imagens/recepção/recepção3.jpg);
+  position: relative;
+    min-height: 100vh;
+    /*altura minima da sessão*/
+    background-size: cover;
+    /*preenchimento da imagem*/
+    background-position: center;
+    /*centraliza a imagem*/
+     line-height: 1.8;
+   
+}
+.comtent-3 {
+   
+}
+.div-box3 {
+    text-align: center;
+      
 
 
-  
+}
+.p3 {
+color: #fff;
+font-size: 2rem;
 
+
+}
+.h3 {
+    background-color: #25d366;
+     text-align: center;
+    color: #fff;
+    font-size: 3rem;
 }
 
 
 
 
 footer {
-   color: #fff;
+    color: #fff;
     background-color: #f59a9a;
     padding: 4rem;
     display: flex;
     gap: 10rem;
- }
+}
 
 footer {
 
-background-color: #a8bdb1;
+    background-color: #a8bdb1;
     padding: 4rem;
     display: flex;
     gap: 8rem;
@@ -318,14 +356,14 @@ footer a {
     line-height: 1.8;
     /*espaçamento entre linhas */
     padding: 1rem 0;
-color: #3d3d3d;
+    color: #3d3d3d;
 
 }
 
 .div-ende {
     width: 10.3rem;
-    height: 15rem;  
- 
+    height: 15rem;
+
 }
 
 .footer-i {
@@ -335,14 +373,15 @@ color: #3d3d3d;
     display: flex;
     align-items: baseline;
     gap: 2rem;
-    
+
 
 }
 
 
 .footer-i i {
 
-   color: #3d3d3d; /* tira mudaça de paleteta de cores*/
+    color: #3d3d3d;
+    /* tira mudaça de paleteta de cores*/
     /* cor branca para icones*/
     cursor: pointer;
     /* altera o cursor ao passar sobre o icones*/
@@ -353,27 +392,28 @@ color: #3d3d3d;
 }
 
 .footer-i i:hover {
- color: #f8f8f5; /* tira mudaça de paleteta de cores*/
+    color: #f8f8f5;
+    /* tira mudaça de paleteta de cores*/
     /* mudar a cor do icone ao passar o mause*/
-  
+
 }
 
 .foot ul li {
     list-style: none;
-} 
+}
 
 .foot ul li a:hover {
 
-  color: #f8f8f5;
+    color: #f8f8f5;
 
-    
+
 }
-  
-.div-ende a:hover {
-color: #f8f8f5;
 
- }
-  
+.div-ende a:hover {
+    color: #f8f8f5;
+
+}
+
 .botao-whats {
     position: fixed;
     bottom: 25px;
@@ -389,4 +429,3 @@ color: #f8f8f5;
     font-size: 2rem;
     z-index: 1000;
 }
-   
