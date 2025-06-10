@@ -175,11 +175,16 @@ h4 {
     background-image: url(imagem/imagens/pele/pele.jpg);
     /*add img sem repetição*/
     line-height: 1.8;
+    justify-content: center;
+   
+   
+     
    
     
 }
 
 .content-1 {
+    
 
     
 }
@@ -211,6 +216,8 @@ h4 {
   gap: 5rem;
     color: #fff;
     font-size: 2rem;
+     padding: 5rem;
+     margin-top: 20rem;
 
 }
 
@@ -222,12 +229,10 @@ h1 {
 }
 
 
-.ver {
-    vertical-align: middle;
-    display: table-cell;
+   /** vertical-align: middle;
+    display: table-cell;*/
 
 
-}
 
 
 
@@ -239,9 +244,9 @@ h1 {
 }
 
 .container-2 h2 {
+    background-color: #25d366;
     text-decoration: uppercase;
     /*dixa o texto em alta */
-    background-color: #25d366;
     text-align: center;
     color: #fff;
     font-size: 3rem;
@@ -254,41 +259,32 @@ h1 {
 
 .content-2 {
     display: flex;
-    text-align: center;
-    align-items: center;
+   margin-top: 0.5rem;
     /*alinha o texto vetical mente*/
     color: #fff;
-    font-size: 2rem;
-    text-align: justify;
-    gap: 5rem;
+    font-size: 2.7rem;
+    gap: 10rem;
     line-height: 1.8;
     /*espaçamento entre linhas */
-  padding: 1rem;
 
-
+}
+.div-box-2 {
+    width: 50rem;
+    height: 40rem;
+    margin-top: 10%;
 
 
 }
-
-.p2 {
-    color: #fff;
-    font-size: 3rem;
-
-}
-
-.p2 span {
-    color: #3d3d3d;
-}
-
 .image {
-    flex: 1 1 45rem;
+   
+  
+
+}
+
+
+   /* flex: 1 1 45rem;*/
     /* define o tamnho flexivel do elemento: base 45rem, podeno creser ou encolher, ou seja 
     faz com que passa ser adaptável para telas grande ou pequenas*/
-
-}
-
-
-
 
 .container-3 {
   background-image: url(imagem/imagens/recepção/recepção3.jpg);
@@ -303,22 +299,31 @@ h1 {
    
 }
 .comtent-3 {
-   
+ 
+
+
 }
 .div-box3 {
+    width: 46rem;
+    height: 25rem;
+  justify-content: center;
+ margin-top: 30rem;
+  padding: 5rem;
+  word-wrap: break-word;
+ 
 
+    
+   
    
 
 }
 .p3 {
-color: #fff;
-font-size: 2rem;
-
-    align-items: center;
-    line-height: 1.8;
    
-
-
+  color: #fff;
+  font-size: 2rem;
+  flex-wrap: wrap;
+ 
+ 
 
 }
 .h3 {
@@ -334,27 +339,13 @@ font-size: 2rem;
 
 
 footer {
-    color: #fff;
-    background-color: #f59a9a;
+    color: #3d3d3d;
+    background-color: #a8bdb1;
     padding: 4rem;
     display: flex;
     gap: 10rem;
 }
 
-footer {
-
-    background-color: #a8bdb1;
-    padding: 4rem;
-    display: flex;
-    gap: 8rem;
-    font-size: 1rem;
-    font-weight: lighter;
-    /* peso dea fonte mais leve*/
-    line-height: 1.8;
-    /*espaçamento entre linhas */
-    color: #3d3d3d;
-
-}
 
 footer a {
     font-size: 1.2rem;

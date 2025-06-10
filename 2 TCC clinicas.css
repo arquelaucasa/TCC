@@ -164,36 +164,31 @@ color: #3d3d3d;
 /*Pagina da silvania css*/
 
 .container-1 {
-background-color: 0;
-padding: 0;
-gap: 2rem;
-  
-}
-
-.div-ima-p {
-    display: flex;
-    text-align: center;
-
- }
- 
- .container p {
-    color: red;
-    font-size: 2rem;
-
+  display: flex;
+  font-size: 3rem;
+    gap: 3rem;
+    color: #3d3d3d;
     
- }
- 
- .container .btn {
+}
+content {
+    
+
+}
+.div-pai-1 { 
+    width: 50rem;
+    margin-top: 20rem; 
+}
+.btn {
     background-color: #3d3d3d;
     padding: 1rem;
-    color: black;
-   border-radius: 0.5rem;
- }
- .container .btn:hover {
-    background-color: rgb(201, 41, 41);
-    color: rgb(7, 7, 248);
-   
- }
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+.btn:hover {
+    background-color: #25d366;
+    color: #fff;
+}
 
 
 /*fim da Pagina da silvania css*/
@@ -201,25 +196,12 @@ gap: 2rem;
 
 footer {
    color: #fff;
-    background-color: #f59a9a;
+    background-color: #a8bdb1;
     padding: 4rem;
     display: flex;
     gap: 10rem;
- }
-
-footer {
-
-background-color: #a8bdb1;
-    padding: 4rem;
-    display: flex;
-    gap: 8rem;
-    font-size: 1rem;
-    font-weight: lighter;
-    /* peso dea fonte mais leve*/
-    line-height: 1.8;
-    /*espaçamento entre linhas */
-    color: #3d3d3d;
-
+   
+ 
 }
 
 footer a {
@@ -244,8 +226,7 @@ color: #3d3d3d;
     /* não estou mexendo nos icones, e sim na caixa */
     display: flex;
     align-items: baseline;
-    gap: 2rem;
-    
+    gap: 1rem;
 
 }
 
@@ -258,8 +239,8 @@ color: #3d3d3d;
     /* altera o cursor ao passar sobre o icones*/
     font-size: 2rem;
     /* tamanho do icones*/
-
-
+ 
+ 
 }
 
 .footer-i i:hover {
@@ -273,8 +254,7 @@ color: #3d3d3d;
 } 
 
 .foot ul li a:hover {
-
-  color: #f8f8f5;
+ color: #f8f8f5;
 
     
 }
@@ -299,6 +279,7 @@ color: #f8f8f5;
     font-size: 2rem;
     z-index: 1000;
 }
+
    
 
  

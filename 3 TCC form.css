@@ -166,43 +166,86 @@ color: #3d3d3d;
 /*inicio do container*/
 
 .container-1 {
+    background-color: #3d3d3d; /*retira essa cor depois*/
+    padding: 10rem;
+    font-size: 2rem;
+    gap: 2rem;
+    
+    
+}
+.div-pai-1 {
+    display: flex;
+    background-color: rgb(46, 43, 43); /*retira essa cor depois*/
 
- display: flex;
-  position: relative;
-    /* perite posicionamento*/
-    min-height: 85vh;
-    /*altura minima da sessão*/
+    
     
 
 }
-
-
-.div-box h1 {
-    font-size: 4rem;
-    color: #f8f8f5;
-
+.div-box-01 {
+    background-color: red; /*retira essa cor depois*/
+    width: 20rem;
+    height: 20rem; 
+    
+    
+}
+.div-1 {
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+    
+ 
+}
+.div-2 {
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
   
-}
-.div-box p {
-    font-size: 1.5rem;
-    color: #f8f8f5;
+    
 
 }
+.div-3 {
 
-.content .label {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
 
-font-size: 1.2rem;
- }
+
+}
+label {
+
+
+    
+
+}
+.btn {
+     display: flex;
+     padding: 2rem;
+
+}
+
+.camp {
+     display: flex;
+     padding: 2rem;
+}
+
+
+
+ 
+    
+
+
+
+
 
 /* fim da Pagina da Natalia css*/
 
-footer {
-   color: #fff;
-    background-color: #f59a9a;
-    padding: 4rem;
-    display: flex;
-    gap: 10rem;
- }
+
+  
+ 
+ 
+   
+    
+ 
 
 footer {
 
