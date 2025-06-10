@@ -112,10 +112,10 @@ h4 {
 .ul-header {
     display: flex;
     /*  display: flex diixa a home lado a lado*/
-    gap: 15px;
-    /* gap: deixa a home no topo*/
+    gap: 8rem;
+    /* gap: deixa a no topo*/
     list-style: none;
-    /* tirá as bolinhas das homes sempre na ul*/
+    /* tirá as bolinhas das  ul*/
 
 }
 
