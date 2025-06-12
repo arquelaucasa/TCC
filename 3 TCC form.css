@@ -237,62 +237,77 @@ label {
 
 
 
-/* fim da Pagina da Natalia css*/
-
-
-  
+/* fim da Pagina da Natalia css*/   
  
- 
-   
-    
- 
-
 footer {
-
-background-color: #a8bdb1;
-    padding: 4rem;
-    display: flex;
-    gap: 8rem;
-    font-size: 1rem;
-    font-weight: lighter;
-    /* peso dea fonte mais leve*/
-    line-height: 1.8;
-    /*espaçamento entre linhas */
     color: #3d3d3d;
-
+    background-color: #a8bdb1;
+    padding: 3rem;
+    display: flex;
+     
+    justify-content: space-between;
+    /*justify-content: space-between; coloca os icones bem no canto lado direito */
 }
 
+
 footer a {
+  
     font-size: 1.2rem;
     font-weight: lighter;
     line-height: 1.8;
     /*espaçamento entre linhas */
     padding: 1rem 0;
-color: #3d3d3d;
+    color: #3d3d3d;
 
 }
 
-.div-ende {
-    width: 10.3rem;
-    height: 15rem;  
+.div-ende-1 {
+  
+    width: 14rem;
+    height: 10rem;
+}
+
+.div-ende-2 {
+   
+    width: 16rem;
+    height: 10rem;
+}
+.div-ende-3 {
+     list-style: none;
+    /* tirá as bolinhas das li*/
+    width: 14.3rem;
+    height: 10rem;
+}
+
+.div-ende-1 a:hover {
+    color: #f8f8f5;
+}
+.div-ende-2 a:hover {
+    color: #f8f8f5;
+}
+.div-ende-3 a:hover {
+    color: #f8f8f5;
+
+}
  
-}
+
 
 .footer-i {
-    width: 0rem;
+  
     height: 0rem;
     /* não estou mexendo nos icones, e sim na caixa */
     display: flex;
-    align-items: baseline;
+      justify-content: end;
     gap: 2rem;
-    
+
 
 }
 
 
 .footer-i i {
 
-   color: #3d3d3d; /* tira mudaça de paleteta de cores*/
+    color: #3d3d3d;
+    /* tira mudaça de paleteta de cores*/
     /* cor branca para icones*/
     cursor: pointer;
     /* altera o cursor ao passar sobre o icones*/
@@ -303,27 +318,24 @@ color: #3d3d3d;
 }
 
 .footer-i i:hover {
- color: #f8f8f5; /* tira mudaça de paleteta de cores*/
+    color: #f8f8f5;
+    /* tira mudaça de paleteta de cores*/
     /* mudar a cor do icone ao passar o mause*/
-  
+
 }
 
-.foot ul li {
+.foot ul li  {
     list-style: none;
-} 
+}
 
 .foot ul li a:hover {
 
-  color: #f8f8f5;
+    color: #f8f8f5;
 
-    
+
 }
-  
-.div-ende a:hover {
-color: #f8f8f5;
 
- }
-  
+
 .botao-whats {
     position: fixed;
     bottom: 25px;
@@ -339,4 +351,3 @@ color: #f8f8f5;
     font-size: 2rem;
     z-index: 1000;
 }
-   
