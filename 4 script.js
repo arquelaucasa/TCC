@@ -1,23 +1,22 @@
-  //  javascript Rene 
+//criamaos um objeto chamado "optios" com as configurações para o efeito de gitação
 
-// aqui estamamos recuperando noos IG está np html
-let meuElemento = document.getElementById("meuElemento"); 
+const options = {
+
+    strings: [
+        "BEM VINDO A BE YOU ESTÉTICA",
+        "estética a vançada e integrada",
+        " comunicação clara e eficiente é essencial para explicar procedimentos e resultados",
+        " personalização do atendimento é crucial para fidelizar clientes."
+    ],
 
 
-function tornarCirculo() {
-    meuElemento.classList.add("circle"); // adiciono uma class para arredondar o quadrado
-    
-    meuElemento.classList.remove("square"); // removo uma class para  
+typeSpeed: 60, // velocidade da digitação (em milisegundos por caractere)
+backSpeed: 40, // velocidade em apagar os texto
+loop: true,    // faz com que as frases se repitam indefinidamente
+backDelay: 1500, // tempo de espera (em milisegundo) antes de começar a apagar uma frase
+smartBacKspace: true // otimiza o apagamento : apaga apenas as caratecteres diferente da proxima frase
+ 
 }
 
-function tornarQuadrado() {
-    meuElemento.classList.add("square"); //
 
-    meuElemento.classList.remove("circle");
-}
-
-function altenarFormato() {
-    meuElemento.classList.toggle("circle");
-    meuElemento.classList.toggle("square");
-
-}
+new Typed("#bem-vindo", options);

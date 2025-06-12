@@ -288,14 +288,25 @@ h1 {
     /*preenchimento da imagem*/
     background-position: center;
     /*centraliza a imagem*/
-     line-height: 1.8;
+  
    
 }
-.comtent-3 {
- 
+.bem-vindo {
+    margin-top: 20%;
+   font-size: 3rem;
+   color: #fff;
+   margin-left: 30rem;
+
+}
+
+
+
+.content-3 {
+ display: flex;
 
 
 }
+
 .div-box3 {
 
     width: 49rem;
@@ -312,7 +323,8 @@ h1 {
 
 }
 .p3 {
-   
+    line-height: 1.8;
+    /*espaçamento entre linhas */
   color: #fff;
   font-size: 1.7rem;
  
@@ -419,6 +431,8 @@ footer a {
 
 .foot ul li  {
     list-style: none;
+   margin-left: 6rem;
+   /* margin-left da espaçamento para a direita*/
 }
 
 .foot ul li a:hover {
