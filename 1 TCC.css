@@ -51,6 +51,7 @@ html {
     /*configuração do font-size para 62.5%, facilitando o uso do rem (1rem = 10px)*/
     overflow-x: hidden;
     /*estouro x oculto*/
+    
 
 }
 
@@ -78,6 +79,9 @@ header {
     top: 0;
     left: 0;
     z-index: 999;
+
+    font-weight: lighter;
+    /* peso dea fonte mais leve*/
 
 
 }
@@ -292,41 +296,40 @@ h1 {
    
 }
 .bem-vindo {
-    margin-top: 20%;
+   
+  margin: 5rem;
    font-size: 3rem;
-   color: #fff;
-   margin-left: 30rem;
+   color: #ff0000;
+   margin-left: 10rem;
+   font-weight: lighter;
+    /* peso da fonte mais leve*/
 
 }
 
 
 
 .content-3 {
- display: flex;
+ 
 
 
 }
 
 .div-box3 {
+  
+    margin: 40%;
+    align-items: center;
+    text-align: center;
 
-    width: 49rem;
-    height: 41rem;
-  justify-content: center;
- margin-top: 25rem;
-  padding: 5rem;
-  word-wrap: break-word;
- 
-
-    
-   
    
 
 }
 .p3 {
-    line-height: 1.8;
+   /* line-height: 1.8;*/
     /*espaçamento entre linhas */
-  color: #fff;
-  font-size: 1.7rem;
+ /* color: #fff;*/
+  /*font-size: 1.7rem;*/
+ /* font-weight: lighter;*
+    /* peso dea fonte mais leve*/
  
  
  
