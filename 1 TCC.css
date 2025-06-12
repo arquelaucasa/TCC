@@ -286,7 +286,7 @@ h1 {
 .container-3 {
   background-image: url(imagem/imagens/recepção/recepção3.jpg);
   position: relative;
-    min-height: 100vh;
+    min-height: 85vh;
     /*altura minima da sessão*/
     background-size: cover;
     /*preenchimento da imagem*/
@@ -308,6 +308,7 @@ h1 {
 
 
 
+
 .content-3 {
  
 
@@ -315,14 +316,11 @@ h1 {
 }
 
 .div-box3 {
-  
-    margin: 40%;
-    align-items: center;
-    text-align: center;
-
-   
+    margin: 25%;
+       position: fixed;
 
 }
+
 .p3 {
    /* line-height: 1.8;*/
     /*espaçamento entre linhas */
