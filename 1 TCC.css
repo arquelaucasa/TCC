@@ -317,10 +317,8 @@ h1 {
 
 .div-box3 {
     margin: 25%;
-       position: fixed;
-
+    
 }
-
 .p3 {
    /* line-height: 1.8;*/
     /*espaçamento entre linhas */
@@ -328,9 +326,6 @@ h1 {
   /*font-size: 1.7rem;*/
  /* font-weight: lighter;*
     /* peso dea fonte mais leve*/
- 
- 
- 
 
 }
 .h3 {
@@ -338,6 +333,11 @@ h1 {
      text-align: center;
     color: #fff;
     font-size: 3rem;
+}
+.container-4 {
+    background-color: #a8bdb1;
+    align-items: center;
+    text-align: center;
 }
 
 
