@@ -272,12 +272,6 @@ h1 {
 
 
 }
-.image {
-   
-  
-
-}
-
 
    /* flex: 1 1 45rem;*/
     /* define o tamnho flexivel do elemento: base 45rem, podeno creser ou encolher, ou seja 
@@ -334,15 +328,14 @@ h1 {
     color: #fff;
     font-size: 3rem;
 }
-.container-4 {
-    background-color: #a8bdb1;
-    align-items: center;
-    text-align: center;
+
+.section4 {
+   background-color: #25d366;
+     text-align: center;
+    
+    
+
 }
-
-
-
-
 
 
 footer {
