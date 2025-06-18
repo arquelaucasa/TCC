@@ -311,7 +311,22 @@ h1 {
 }
 
 .div-box3 {
-    margin: 25%;
+    position: relative;
+    top: 60rem;
+    text-align: center;
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+  
     
 }
 .p3 {
@@ -330,14 +345,7 @@ h1 {
     font-size: 3rem;
 }
 
-.section4 {
-   background-color: #25d366;
-     text-align: center;
-    
-    
-
-}
-
+     
 
 footer {
     color: #3d3d3d;
