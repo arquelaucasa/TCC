@@ -170,35 +170,39 @@ color: #3d3d3d;
 .contato {
     background-position: center;
     background-color: grey;
+    font-size: 1.2rem;
 
 }
 
 .contatoForm {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+   
 }
 
 .DivForm {
     display: flex;
     justify-content: space-around;
     gap: 5em;
+  
 }
 
 .DivFormLabel {
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin: 1em 0;
+    margin: 1rem 0; 
 }
+
 
 .contatoForm input {
     background-color: transparent;
     border: transparent;
     border-bottom: 1px solid black;
     font-size: 3em;
-    width: ;
+     border: 1px solid white;
+     /* border: 1px solid white; bordas n a label do input*/
 }
 
 .btn {
@@ -224,14 +228,42 @@ color: #3d3d3d;
     left: 0;
     height: 100%;
     width: 0%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     z-index: -1;
     transition: width 0.5s ease;
+  
 }
 
 .btn:hover::before {
     width: 100%;
 }
+.contatos {
+   display: flex;
+   background-color: grey;
+    gap: 4rem ;
+    
+ 
+   
+}
+
+.imag {
+    /*background-position: left; posição da imagem a esqueda*/  
+     background-position: right;
+     /* background-position: right; posição da imagens a direita*/
+    
+}
+
+.contatos-p1 {
+    align-content: center;
+    /*  align-content: center; centralizando o texto*/
+     line-height: 4rem; /*espaçamento no texto*/
+      font-size: 2rem;
+    flex-direction: column;
+       margin-inline-start: 10rem;  
+           color: #f8f8f5;    
+  
+}
+
 
 
 
