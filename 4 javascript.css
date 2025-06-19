@@ -17,3 +17,39 @@ body {
     overflow: hidden;  /**/
 
 }
+/*responcivel*/
+media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+
+    header {
+        padding: 1.5rem 2rem;
+    }
+}
+
+section {
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    /*colocar código para esconder o menu*/
+    .ul-header {
+        display: none;
+    }
+    
+}
+
+@media(max-width: 168px)  {
+    html {
+        font-size: 30%;
+
+    }
+}
+
+@media(max-width: 168px)  {
+    main {
+        font-size: 25%;
+
+    }
+}
