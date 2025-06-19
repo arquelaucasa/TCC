@@ -314,19 +314,6 @@ h1 {
     position: relative;
     top: 60rem;
     text-align: center;
-
-
-
-
-
-
-
-
-
- 
-
- 
-  
     
 }
 .p3 {
@@ -461,22 +448,23 @@ footer a {
     font-size: 2rem;
     z-index: 1000;
 }
+
 /* responcivel*/
-media (max-width: 991px) {
+ @media (max-width: 991px) {
     html {
-        font-size: 55%;
+        font-size: 40%;
     }
 
     header {
-        padding: 1.5rem 2rem;
+        padding: 1rem 1.5rem;
     }
 }
 
 section {
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 668px) {
     /*colocar código para esconder o menu*/
     .ul-header {
         display: none;
@@ -484,16 +472,30 @@ section {
     
 }
 
-@media(max-width: 168px)  {
+@media(max-width: 158px)  {
     html {
-        font-size: 30%;
-
-    }
-}
-
-@media(max-width: 168px)  {
-    main {
         font-size: 25%;
 
     }
 }
+
+@media(max-width: 158px)  {
+    main {
+        font-size: 20%;
+
+    }
+}
+
+@media screen {
+    
+}
+
+/*footer re*/
+ 
+
+    
+
+
+
+
+ 
