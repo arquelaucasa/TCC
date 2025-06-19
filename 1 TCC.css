@@ -202,6 +202,7 @@ h4 {
     font-size: 1.7rem;
     color: #fff;
     border-radius: 0.5rem;
+     border: 1px solid white;
 
 }
 
@@ -272,12 +273,6 @@ h1 {
 
 
 }
-.image {
-   
-  
-
-}
-
 
    /* flex: 1 1 45rem;*/
     /* define o tamnho flexivel do elemento: base 45rem, podeno creser ou encolher, ou seja 
@@ -316,7 +311,22 @@ h1 {
 }
 
 .div-box3 {
-    margin: 25%;
+    position: relative;
+    top: 60rem;
+    text-align: center;
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+  
     
 }
 .p3 {
@@ -334,16 +344,8 @@ h1 {
     color: #fff;
     font-size: 3rem;
 }
-.container-4 {
-    background-color: #a8bdb1;
-    align-items: center;
-    text-align: center;
-}
 
-
-
-
-
+     
 
 footer {
     color: #3d3d3d;

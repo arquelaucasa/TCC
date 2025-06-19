@@ -164,10 +164,20 @@ color: #3d3d3d;
 /*Pagina da silvania css*/
 
 .container-1 {
-  display: flex;
-  font-size: 3rem;
-    gap: 3rem;
-    color: #3d3d3d;
+    background-image: url(imagem/2\ massagem\ 2.jpg);
+    background-color: #3d3d3d;
+   font-size: 3rem;
+   color: black;
+
+    position: relative;
+    min-height: 90vh;
+    /*altura minima da sessão*/
+    background-size: cover;
+    /*preenchimento da imagem*/
+    background-position: center;
+    /*centraliza a imagem*/
+ 
+    
     
 }
 content {
@@ -177,12 +187,21 @@ content {
 .div-pai-1 { 
     width: 50rem;
     margin-top: 20rem; 
+    
+    line-height: 1.8;
+    /* line-height: 1.8 espaço entre linhas*/
+     flex-direction: column;
+     /*flex-direction testo em coluna*/
+   margin-inline-start: 10rem;
+   /*margin-inline-star dece o texto0*/
 }
 .btn {
     background-color: #b1aeae;
     padding: 1rem;
     font-size: 2rem;
     border-radius: 1rem;
+     border: 1px solid white;
+    
 }
 
 .btn:hover {
