@@ -452,7 +452,7 @@ footer a {
 /* responcivel*/
  @media (max-width: 991px) {
     html {
-        font-size: 40%;
+        font-size: 55%;
     }
 
     header {
@@ -487,10 +487,33 @@ section {
 }
 
 @media screen {
+  
     
 }
 
 /*footer re*/
+@media (max-width: 668px) {
+    /*colocar código para esconder o menu*/
+    footer ul {
+        display: none;
+    }
+    
+}
+@media(max-width: 158px)  {
+    footer {
+        font-size: 20%;
+
+    }
+}
+@media (max-width: 668px) {
+    /*colocar código para esconder o menu*/
+    .div-ende-2 {
+        display: none;
+    }
+    }
+
+
+
  
 
     
