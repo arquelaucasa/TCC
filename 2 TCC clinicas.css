@@ -327,22 +327,22 @@ footer a {
     z-index: 1000;
 }
 
-/*responcivel*/
+/* responcivel*/
  @media (max-width: 991px) {
     html {
         font-size: 55%;
     }
 
     header {
-        padding: 1.5rem 2rem;
+        padding: 1rem 1.5rem;
     }
 }
 
 section {
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 668px) {
     /*colocar código para esconder o menu*/
     .ul-header {
         display: none;
@@ -350,23 +350,43 @@ section {
     
 }
 
-@media(max-width: 168px)  {
+@media(max-width: 158px)  {
     html {
-        font-size: 30%;
-
-    }
-}
-
-@media(max-width: 168px)  {
-    main {
         font-size: 25%;
 
     }
 }
 
- 
+@media(max-width: 158px)  {
+    main {
+        font-size: 20%;
+
+    }
+}
+
+@media screen {
   
+    
+}
 
+/*footer re*/
+@media (max-width: 668px) {
+    /*colocar código para esconder o menu*/
+    footer ul {
+        display: none;
+    }
+    
+}
+@media(max-width: 158px)  {
+    footer {
+        font-size: 20%;
 
-
-
+    }
+}
+@media (max-width: 668px) {
+    /*colocar código para esconder o menu*/
+    .div-ende-2 {
+        display: none;
+    }
+    }
+c
