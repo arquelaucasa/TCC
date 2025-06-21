@@ -51,12 +51,13 @@ html {
     /*configuração do font-size para 62.5%, facilitando o uso do rem (1rem = 10px)*/
     overflow-x: hidden;
     /*estouro x oculto*/
+  
     
 
 }
 
 body {
-    flex-wrap: wrap;
+  
     /*permite que os itens quebrem para a proxima limha se necessário*/
     /* background-color: #a8bdb1;*/
     /*background: var(--bg); /*plano de fundo: var*/
@@ -65,7 +66,7 @@ body {
 
 /*inicio do header*/
 header {
-
+ 
     background-color: #a8bdb1;
     /*tira depois o background-color: #a8bdb1*/
     display: flex;
@@ -155,7 +156,7 @@ h4 {
 }
 
 .icons i {
-
+ flex-wrap: wrap;
     color: #3d3d3d;
     /* cor para icones*/
     cursor: pointer;
@@ -180,16 +181,11 @@ h4 {
     /*add img sem repetição*/
     line-height: 1.8;
     justify-content: center;
-   
-   
-     
-   
     
 }
 
 .content-1 {
-    
-
+   
     
 }
 
@@ -203,11 +199,8 @@ h4 {
     color: #fff;
     border-radius: 0.5rem;
      border: 1px solid white;
-
+     
 }
-
-
-
 
 .btn:hover {
     background-color: rgb(145, 255, 0);
@@ -238,6 +231,7 @@ h1 {
 
     background-color: #a8bdb1;
     align-items: center;
+     
 
 }
 
@@ -248,10 +242,13 @@ h1 {
     text-align: center;
     color: #fff;
     font-size: 3rem;
+   
+   
 }
 
 .container-2 h2 span {
     color: #3d3d3d;
+    
 
 }
 
@@ -264,12 +261,15 @@ h1 {
     gap: 10rem;
     line-height: 1.8;
     /*espaçamento entre linhas */
+     flex-wrap: wrap;
+    
 
 }
 .div-box-2 {
     width: 50rem;
     height: 40rem;
     margin-top: 10%;
+     
 
 
 }
@@ -287,7 +287,7 @@ h1 {
     /*preenchimento da imagem*/
     background-position: center;
     /*centraliza a imagem*/
-  
+ 
    
 }
 .bem-vindo {
@@ -305,6 +305,7 @@ h1 {
 
 
 .content-3 {
+
  
 
 
@@ -330,6 +331,7 @@ h1 {
      text-align: center;
     color: #fff;
     font-size: 3rem;
+   
 }
 
      
@@ -339,7 +341,7 @@ footer {
     background-color: #a8bdb1;
     padding: 3rem;
     display: flex;
-     
+    
     justify-content: space-between;
     /*justify-content: space-between; coloca os icones bem no canto lado direito */
 }
@@ -511,6 +513,14 @@ section {
         display: none;
     }
     }
+
+   @media (max-width: 668px) {
+  .content-2  {
+    text-align: center;
+   margin-bottom: 20%;
+
+    }
+   }
 
 
 

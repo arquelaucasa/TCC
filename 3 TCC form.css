@@ -50,11 +50,12 @@ html {
     /*configuração do font-size para 62.5%, facilitando o uso do rem (1rem = 10px)*/
     overflow-x: hidden;
     /*estouro x oculto*/
-
+ 
 }
 
 body {
     background-color: #f8f8f5;
+    
 }
 
 /*inicio do header*/
@@ -171,6 +172,7 @@ color: #3d3d3d;
     background-position: center;
     background-color: grey;
     font-size: 1.2rem;
+    ;
 
 }
 
@@ -178,6 +180,7 @@ color: #3d3d3d;
     display: flex;
     justify-content: center;
     align-items: center;
+    
    
 }
 
@@ -185,6 +188,7 @@ color: #3d3d3d;
     display: flex;
     justify-content: space-around;
     gap: 5em;
+  
   
 }
 
@@ -219,6 +223,7 @@ color: #3d3d3d;
     transition: color 0.4s ease;
     font-weight: bold;
     z-index: 0;
+    
 }
 
 .btn::before {
@@ -250,6 +255,7 @@ color: #3d3d3d;
     /*background-position: left; posição da imagem a esqueda*/  
      background-position: right;
      /* background-position: right; posição da imagens a direita*/
+  
     
 }
 
@@ -260,7 +266,9 @@ color: #3d3d3d;
       font-size: 2rem;
     flex-direction: column;
        margin-inline-start: 10rem;  
-           color: #f8f8f5;    
+           color: #f8f8f5;  
+           flex-wrap: wrap;
+           
   
 }
 /*responcivel*/
@@ -297,6 +305,7 @@ section {
 @media(max-width: 158px)  {
     main {
         font-size: 20%;
+        flex-wrap: wrap;
 
     }
 }
@@ -327,7 +336,13 @@ section {
     }
     }
 
-    
+    @media(max-width: 668px) {
+        .DivForm {
+            flex-wrap : wrap;
+         
+        }
+    }
+   
 
 
  
