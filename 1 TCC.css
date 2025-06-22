@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    /*paletas escolhida*/
+    /*paleta escolhida*/
 
     --main-color: #a8bdb1;
     /*--cor principal: #a8bdb1;*/
@@ -29,8 +29,7 @@
     text-decoration: none;
     /*decoração de texto nenhuma*/
 
-   /* text-transform: capitalize;*/
-    /* text-transform: capitalize; transformação de texto: capitalizar em letras mauscula*/
+   text-transform: capitalize; /*transformação de texto: capitalizar em letras maiuscula*/
 
     transition: 0.2s linear;
     /*transição*/
