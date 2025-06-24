@@ -9,6 +9,24 @@ body {
     height: 100vh;
 }
 
+.carossel {
+    padding: 0;
+
+}
+
+ #caixa-1 {
+    background-image: url(imagem/imagens/pele/);
+
+ }
+#caixa-2 {
+    background-image: url(imagem/imagens/recepção/);
+    
+ }
+ #caixa-3 {
+    background-image: url(imagem/imagens/massagem/);
+    
+ }
+
 .typing {
 
     font-size: 28px;
