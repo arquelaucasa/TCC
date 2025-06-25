@@ -174,9 +174,10 @@ h4 {
     background-size: cover;
     /*preenchimento da imagem*/
     background-position: center;
-    line-height: 1.8;
-   
-    
+    line-height: 1.8;  
+   align-items: center;
+   text-align: center;
+     
 }
 
 
@@ -223,10 +224,11 @@ h1 {
      
 
 }
-img {
+ img {
      border: 1px solid white;
      border-radius: 4%;
 }
+
 
 .container-2 h2 {
     background-color:#a8bdb1;
@@ -271,7 +273,7 @@ img {
     faz com que passa ser adaptável para telas grandes ou pequenas*/
 
 .container-3 {
-  background-image: url(imagem/imagens/recepção/recepção3.jpg);
+   background-image: url(imagem/imagens/recepção/recepção3.jpg);
   position: relative;
     min-height: 85vh;
     /*altura minima da sessão*/
@@ -279,6 +281,7 @@ img {
     /*preenchimento da imagem*/
     background-position: center;
     /*centraliza a imagem*/
+    flex-wrap: wrap;
  
    
 }
@@ -536,8 +539,50 @@ section {
         margin-top: 70%;
     }
 }
- 
 
+@media(max-width: 668px) {
+ img {
+    width: 100%;
+    height: 100%;
+     border-radius: 4%;
+}
+
+}
+
+@media(max-width: 668px) {
+    .container-3 {
+        width: 100%;
+        height: 100%;
+       background-image: url(imagem/imagens/recepção/recepção3.jpg);
+         background-size: cover;
+        position: relative;
+         background-position: center;
+       border-radius: 4%;
+   
+
+}
+ }
+
+ @media(max-width: 668px) {
+    .container-1 {
+         background-image: url(imagem/imagens/pele/pele.jpg);
+    background-size: cover;
+    /*preenchimento da imagem*/
+     position: relative;
+    background-position: center;
+     width: 100%;
+    height: 100%;
+     border-radius: 4%;
+   
+ 
+ }
+  }
+  @media(max-width: 668px) {
+   
+    
+ 
+ }
+  
     
 
 
