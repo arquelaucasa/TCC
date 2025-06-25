@@ -170,16 +170,12 @@ h4 {
 }
 
 .container-1 {
-    position: relative;
-    min-height: 100vh;
-    /*altura minima da sessão*/
+    background-image: url(imagem/imagens/pele/pele.jpg);
     background-size: cover;
     /*preenchimento da imagem*/
     background-position: center;
-    background-image: url(imagem/imagens/pele/pele.jpg);
-    /*add img sem repetição*/
     line-height: 1.8;
-    justify-content: center;
+   
     
 }
 
@@ -226,6 +222,10 @@ h1 {
     align-items: center;
      
 
+}
+img {
+     border: 1px solid white;
+     border-radius: 4%;
 }
 
 .container-2 h2 {
