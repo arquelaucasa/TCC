@@ -507,5 +507,6 @@ footer a {
     background-position: center; /*posicionamento da imagem*/
     border-bottom: var(--border); /*adiciona borda inferior*/
     background-size: cover; /*preenchimento da imagem*/
+    background: linear-gradient(180deg, #c0cdcf 2.33%, rgba(123, 211, 120, 0.301) 100%);
     
 }
