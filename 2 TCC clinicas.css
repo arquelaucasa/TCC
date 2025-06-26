@@ -79,35 +79,6 @@ background-color: #a8bdb1;
 
 }
 
-.logo img {
- 
-    height: 6.5rem;
-    /*define a altura da logo */
-    border-radius: 100%;
-    /*torna a logo circular*/
-
-}
-
-.div-logo {
-   color: #3d3d3d;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    font-size: 1.8rem;
-
-}
-
-.div-logo:hover {
-    color: #f8f8f5;
-    /* mudar a cor do icone ao passar o mause*/
-}
-
-
-h4 {
-    font-size: 1rem;
-
-}
-
 
 .ul-header {
     display: flex;
@@ -138,6 +109,30 @@ h4 {
     /*adiciona espaçamento inferior no hover*/
 }
 
+.logo img {
+ 
+    height: 6.5rem;
+    /*define a altura da logo */
+    border-radius: 100%;
+    /*torna a logo circular*/
+
+}
+
+.div-logo {
+   color: #3d3d3d;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.8rem;
+
+}
+
+.div-logo:hover {
+    color: #f8f8f5;
+    /* mudar a cor do icone ao passar o mause*/
+}
+
+
 .icons {
     /* não estou mexendo nos icones, e sim na caixa */
     display: flex;
@@ -161,7 +156,16 @@ color: #3d3d3d;
     color: #f8f8f5;
     /* mudar a cor do icone ao passar o mause*/
 }
-/*Pagina da silvania css*/
+
+
+h4 {
+    font-size: 1rem;
+
+}
+
+
+
+/*fim do header*/
 
 .container-1 {
     background-image: url(imagem/2\ massagem\ 2.jpg);
@@ -180,10 +184,7 @@ color: #3d3d3d;
     
     
 }
-content {
-    
 
-}
 .div-pai-1 { 
     width: 50rem;
     margin-top: 20rem; 
@@ -210,15 +211,14 @@ content {
 }
 
 
-/*fim da Pagina da silvania css*/
-
+/*inicio do footer*/
 
 footer {
     color: #3d3d3d;
     background-color: #a8bdb1;
     padding: 3rem;
     display: flex;
-     
+    
     justify-content: space-between;
     /*justify-content: space-between; coloca os icones bem no canto lado direito */
 }
@@ -235,27 +235,24 @@ footer a {
 
 }
 
-.div-ende-1 {
+.div-endereco-1 {
   
     width: 14rem;
     height: 10rem;
 }
 
-.div-ende-2 {
+.div-endereco-2 {
    
     width: 16rem;
     height: 10rem;
 }
-.div-ende-3 {
-   
-    width: 10.3rem;
-    height: 10rem;
 
+.div-endereco-1 a:hover {
+    color: #f8f8f5;
 }
- 
- 
- 
-
+.div-endereco-2 a:hover {
+    color: #f8f8f5;
+}
 
 .footer-i {
   
@@ -289,25 +286,16 @@ footer a {
 
 }
 
-.foot ul li {
+.foot ul li  {
     list-style: none;
+   margin-left: 6rem;
+   /* margin-left da espaçamento para a direita*/
 }
 
 .foot ul li a:hover {
 
     color: #f8f8f5;
 
-
-}
-
-.div-ende-1 a:hover {
-    color: #f8f8f5;
-}
-.div-ende-2 a:hover {
-    color: #f8f8f5;
-}
-.div-ende-3 a:hover {
-    color: #f8f8f5;
 
 }
 
@@ -326,6 +314,8 @@ footer a {
     font-size: 2rem;
     z-index: 1000;
 }
+
+
 
 /* responcivel*/
  @media (max-width: 991px) {

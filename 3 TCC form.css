@@ -78,36 +78,6 @@ background-color: #a8bdb1;
 
 }
 
-.logo img {
- 
-    height: 6.5rem;
-    /*define a altura da logo */
-    border-radius: 100%;
-    /*torna a logo circular*/
-
-}
-
-.div-logo {
-   color: #3d3d3d;
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    font-size: 1.8rem;
-
-}
-
-.div-logo:hover {
-    color: #f8f8f5;
-    /* mudar a cor do icone ao passar o mause*/
-}
-
-
-h4 {
-    font-size: 1rem;
-
-}
-
-
 .ul-header {
     display: flex;
     /*  display: flex diixa a home lado a lado*/
@@ -137,6 +107,30 @@ h4 {
     /*adiciona espaçamento inferior no hover*/
 }
 
+
+.logo img {
+ 
+    height: 6.5rem;
+    /*define a altura da logo */
+    border-radius: 100%;
+    /*torna a logo circular*/
+
+}
+
+.div-logo {
+   color: #3d3d3d;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.8rem;
+
+}
+
+.div-logo:hover {
+    color: #f8f8f5;
+    /* mudar a cor do icone ao passar o mause*/
+}
+
 .icons {
     /* não estou mexendo nos icones, e sim na caixa */
     display: flex;
@@ -160,13 +154,13 @@ color: #3d3d3d;
     color: #f8f8f5;
     /* mudar a cor do icone ao passar o mause*/
 }
+
+
+h4 {
+    font-size: 1rem;
+
+}
 /*fim do header*/
-
-/*Pagina da Natalia css*/
-
-/*inicio do container*/
-
-/*label*/
 
 .contato {
     background-position: center;
@@ -204,8 +198,6 @@ color: #3d3d3d;
 .sobre-nome {
     background-color: #a8bdb1;
 }
-
-
 
 
 .contatoForm input {
@@ -279,8 +271,100 @@ color: #3d3d3d;
            
   
 }
+
+/*inicio do footer*/
+footer {
+    color: #3d3d3d;
+    background-color: #a8bdb1;
+    padding: 3rem;
+    display: flex;
+    
+    justify-content: space-between;
+    /*justify-content: space-between; coloca os icones bem no canto lado direito */
+}
+
+
+footer a {
+  
+    font-size: 1.2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    /*espaçamento entre linhas */
+    padding: 1rem 0;
+    color: #3d3d3d;
+
+}
+
+.div-endereco-1 {
+  
+    width: 14rem;
+    height: 10rem;
+}
+
+.div-endereco-2 {
+   
+    width: 16rem;
+    height: 10rem;
+}
+
+.div-endereco-1 a:hover {
+    color: #f8f8f5;
+}
+.div-endereco-2 a:hover {
+    color: #f8f8f5;
+}
+
+ 
+
+
+.footer-i {
+  
+    height: 0rem;
+    /* não estou mexendo nos icones, e sim na caixa */
+    display: flex;
+      justify-content: end;
+    gap: 2rem;
+
+
+}
+
+
+.footer-i i {
+
+    color: #3d3d3d;
+    /* tira mudaça de paleteta de cores*/
+    /* cor branca para icones*/
+    cursor: pointer;
+    /* altera o cursor ao passar sobre o icones*/
+    font-size: 2rem;
+    /* tamanho do icones*/
+
+
+}
+
+.footer-i i:hover {
+    color: #f8f8f5;
+    /* tira mudaça de paleteta de cores*/
+    /* mudar a cor do icone ao passar o mause*/
+
+}
+
+.foot ul li  {
+    list-style: none;
+   margin-left: 6rem;
+   /* margin-left da espaçamento para a direita*/
+}
+
+.foot ul li a:hover {
+
+    color: #f8f8f5;
+
+
+}
+
 /*responcivel*/
-/* responcivel*/
+
+
  @media (max-width: 991px) {
     html {
         font-size: 55%;

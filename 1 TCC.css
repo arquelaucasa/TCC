@@ -63,6 +63,31 @@ body {
 
 }
 
+
+.icons {
+    /* não estou mexendo nos icones, e sim na caixa */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+
+}
+
+.icons i {
+ flex-wrap: wrap;
+    color: #3d3d3d;
+    /* cor para icones*/
+    cursor: pointer;
+    /* altera o cursor ao passar sobre o icones*/
+    font-size: 2.5rem;
+    /* tamanho do icones*/
+}
+
+.icons i:hover {
+    color: #f8f8f5;
+    /* mudar a cor do icone ao passar o mause*/
+}
+
 /*inicio do header*/
 header {
  
@@ -85,6 +110,36 @@ header {
 
 
 }
+
+.ul-header {
+    display: flex;
+    /*  display: flex diixa a home lado a lado*/
+    gap: 8rem;
+    /* gap: deixa a home no topo*/
+    list-style: none;
+    /* tirá as bolinhas das homes sempre na ul*/
+
+}
+
+.ul-header li a {
+
+    color: #3d3d3d;
+    /*cor do texto*/
+    font-family: 1.6rem;
+    /* tamanho da fonte do texto*/
+
+}
+
+
+.ul-header li a:hover {
+    color: #f8f8f5;
+    /* hover mudar a cor do texto ao passar o mause no hover */
+    border-bottom: 0.1rem solid var(--main-color);
+    /* hover adicionar uma linha ao texto quando passa o mause inferior no hover*/
+    padding-bottom: 0.5rem;
+    /*adiciona espaçamento inferior no hover*/
+}
+
 
 .logo img {
 
@@ -112,62 +167,9 @@ header {
 
 h4 {
     font-size: 1rem;
-
 }
 
-
-.ul-header {
-    display: flex;
-    /*  display: flex diixa a home lado a lado*/
-    gap: 8rem;
-    /* gap: deixa a home no topo*/
-    list-style: none;
-    /* tirá as bolinhas das homes sempre na ul*/
-
-}
-
-.ul-header li a {
-
-    color: #3d3d3d;
-    /*cor do texto*/
-    font-family: 1.6rem;
-    /* tamanho da fonte do texto*/
-
-}
-
-/*inicio do hover*/
-.ul-header li a:hover {
-    color: #f8f8f5;
-    /* hover mudar a cor do texto ao passar o mause no hover */
-    border-bottom: 0.1rem solid var(--main-color);
-    /* hover adicionar uma linha ao texto quando passa o mause inferior no hover*/
-    padding-bottom: 0.5rem;
-    /*adiciona espaçamento inferior no hover*/
-}
-
-.icons {
-    /* não estou mexendo nos icones, e sim na caixa */
-    display: flex;
-    align-items: center;
-    gap: 15px;
-
-
-}
-
-.icons i {
- flex-wrap: wrap;
-    color: #3d3d3d;
-    /* cor para icones*/
-    cursor: pointer;
-    /* altera o cursor ao passar sobre o icones*/
-    font-size: 2.5rem;
-    /* tamanho do icones*/
-}
-
-.icons i:hover {
-    color: #f8f8f5;
-    /* mudar a cor do icone ao passar o mause*/
-}
+/*fim do header*/
 
 .container-1 {
     background-image: url(imagem/imagens/pele/pele.jpg);
@@ -268,9 +270,6 @@ h1 {
 
 }
 
-   /* flex: 1 1 45rem;*/
-    /* define o tamanho flexivel do elemento: base 45rem, podendo crescer ou encolher, ou seja,
-    faz com que passa ser adaptável para telas grandes ou pequenas*/
 
 .container-3 {
    background-image: url(imagem/imagens/recepção/recepção3.jpg);
@@ -290,7 +289,6 @@ h1 {
    text-align: left;
   margin-top: 70%;
 }
-
 
 
 .btn-3 {
@@ -319,18 +317,6 @@ h1 {
     /* peso da fonte mais leve*/
 }
 
-
-
-
-.p3 {
-   /* line-height: 1.8;*/
-    /*espaçamento entre linhas */
- /* color: #fff;*/
-  /*font-size: 1.7rem;*/
- /* font-weight: lighter;*
-    /* peso dea fonte mais leve*/
-
-}
 .h-3 {
     background-color: #a8bdb1;
      text-align: center;
@@ -339,8 +325,6 @@ h1 {
     margin-top: auto;
    
 }
-
-     
 
 footer {
     color: #3d3d3d;
@@ -364,35 +348,25 @@ footer a {
 
 }
 
-.div-ende-1 {
+.div-endereco-1 {
   
     width: 14rem;
     height: 10rem;
 }
 
-.div-ende-2 {
+.div-endereco-2 {
    
     width: 16rem;
     height: 10rem;
 }
-.div-ende-3 {
-     list-style: none;
-    /* tirá as bolinhas das li*/
-    width: 14.3rem;
-    height: 10rem;
-}
 
-.div-ende-1 a:hover {
-    color: #f8f8f5;
-}
-.div-ende-2 a:hover {
-    color: #f8f8f5;
-}
-.div-ende-3 a:hover {
-    color: #f8f8f5;
 
+.div-endereco-1 a:hover {
+    color: #f8f8f5;
 }
- 
+.div-endereco-2 a:hover {
+    color: #f8f8f5;
+}
 
 
 .footer-i {
