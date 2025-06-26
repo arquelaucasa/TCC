@@ -44,10 +44,11 @@ allowTouchMove: true, //impede que o usuário use o toque (arraste) para mudar o
 
 window.revelar = ScrollReveal({reset:true});
 
-revelar.reveal('.div-logo', { //estou chamando a classe a qual eu quero atribuir o efeito do scrollReveal.
+revelar.reveal('.div-box-1', { //estou chamando a classe a qual eu quero atribuir o efeito do scrollReveal.
     duration: 2000,
     distance: '90px',
-    origin: 'bottom'
+    origin: 'right'
+    
 });
 
 revelar.reveal('.h3-h4', {
