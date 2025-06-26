@@ -37,4 +37,21 @@ effect: 'fade',//define o tipo de transição entre as imagens (fade = dissolver
 fadeEffect: { crossFade: true },//faz com que o slide anterior desapareça suavemente enquento o novo aparece.
 
 allowTouchMove: true, //impede que o usuário use o toque (arraste) para mudar o slide.
-})
+});
+
+
+
+
+window.revelar = ScrollReveal({reset:true});
+
+revelar.reveal('.div-logo', { //estou chamando a classe a qual eu quero atribuir o efeito do scrollReveal.
+    duration: 2000,
+    distance: '90px',
+    origin: 'bottom'
+});
+
+revelar.reveal('.h3-h4', {
+    duration: 2000,
+    distance: '120px',
+    origin: 'right'
+});
