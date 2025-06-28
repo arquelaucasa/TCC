@@ -167,47 +167,74 @@ h4 {
 
 /*fim do header*/
 
-.container-1 {
-    background-image: url(imagem/2\ massagem\ 2.jpg);
-    background-color: #3d3d3d;
-   font-size: 3rem;
-   color: black;
-
-    position: relative;
-    min-height: 90vh;
-    /*altura minima da sessão*/
-    background-size: cover;
-    /*preenchimento da imagem*/
-    background-position: center;
-    /*centraliza a imagem*/
- 
-    
-    
-}
-
-.div-pai-1 { 
-    width: 50rem;
-    margin-top: 20rem; 
-    
-    line-height: 1.8;
-    /* line-height: 1.8 espaço entre linhas*/
-     flex-direction: column;
-     /*flex-direction testo em coluna*/
-   margin-inline-start: 10rem;
-   /*margin-inline-star dece o texto0*/
-}
-.btn {
-    background-color: #b1aeae;
-    padding: 1rem;
-    font-size: 2rem;
-    border-radius: 1rem;
-     border: 1px solid white;
-    
-}
-
-.btn:hover {
-    background-color: var(--br-card);
+.procedimento {
+    background-color: #a8bdb1;
+    display: grid; /*Organiza os elementos internos em um layout de grade*/
+    grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
+    /*Cria colunas flexiveis com larg. min. de 30rem e máx. proporcional*/
+    gap: 1.5rem; /*Define o espaçamento entre os itens da grade*/
    
+}
+
+
+.procedimento .box {
+    padding: 2rem; /*add espaçamento interno ao redor do conteúdo da caixa*/
+    text-align: center;/*centraliza o texo*/
+    border: 0.5rem solid #e2dfd9; /*aplicando uma borda ao redor da caixa*/
+    background: var(--bg-card); /*define a cor de fundo da caixa*/
+    
+}
+
+.procedimento .box img {
+    height: 10rem;/*define a altura da img*/
+    width: 10rem;
+   
+}
+
+p {
+    padding: 2rem;
+    font-size: 2rem;
+    color: #3d3d3d;  
+}
+
+.cln {
+    background-color: #a8bdb1;
+    display: grid; /*Organiza os elementos internos em um layout de grade*/
+    grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
+    /*Cria colunas flexiveis com larg. min. de 30rem e máx. proporcional*/
+    gap: 1rem; /*Define o espaçamento entre os itens da grade*/
+    align-items: center;
+}
+
+
+.cln .box {
+    padding: 2rem; /*add espaçamento interno ao redor do conteúdo da caixa*/
+    text-align: center;/*centraliza o texo*/
+    border: 0.5rem solid #e2dfd9; /*aplicando uma borda ao redor da caixa*/
+    background: #817f7f; /*define a cor de fundo da caixa*/
+    gap: 0.5rem;
+}
+
+.cln .box img {
+    height: 10rem;/*define a altura da img*/
+    width: 10rem;
+   
+}
+
+.cln .box p {
+    padding: 2rem;
+    font-size: 2rem;
+    color: #3d3d3d;
+
+}
+
+
+h5 {
+    font-size: 3rem;/*tamanho da fonte*/
+    text-align: center;/*alinhando o texto ao centro*/
+    padding: 1.8rem;/*espaçamento interno entre o texto e a margem*/
+    border: solid #a8bdb1 ;/*aplicando borda*/
+    margin-bottom: 2rem;
 }
 
 
