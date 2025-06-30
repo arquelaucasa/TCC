@@ -3,18 +3,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    /*paletas escolhida*/
+    /*paleta escolhida*/
 
     --main-color: #a8bdb1;
     /*cor principal*/
     --bg: #a8bdb1;
     --br-card: #817f7f;
-    --border: 0.1rem #d6c7b0;
+    --border: 1.5rem solid #160e02;
     /*fronteira*/
+
 
 }
 
-    
+
+
 * {
     margin: 0;
     /*margem*/
@@ -29,88 +31,63 @@
     text-decoration: none;
     /*decoração de texto nenhuma*/
     text-transform: capitalize;
-    /*transformação de texto: capitalizar*/
+    /*transformação de texto: capitalizar em letras maiusculas*/
 
-    transition: 0.2s linear;
+    transition: 0.3s linear;
     /*transição*/
 
     outline: none;
     /*não delinear nenhum (esboço: nenhum*/
 
-    border: none;
-    /*fronteira: nenhuma*/
+   
 
     scroll-behavior: smooth;
     /*comportamento de rolagem: suave*/
 
+
 }
 
 html {
-    font-size: 68.5%;
+    font-size: 62.5%;
     /*configuração do font-size para 62.5%, facilitando o uso do rem (1rem = 10px)*/
     overflow-x: hidden;
     /*estouro x oculto*/
 
+
 }
 
 body {
-    /*background: var(--bg); /*plano de fundo: var*/
-    background-color: var(--bg);
+    flex-wrap: wrap;
+    /*permite que os itens quebrem para a próxima linha se necessário*/
+    background: var(--main-color);/*plano de fundo: var*/
 
 }
 
 /*inicio do header*/
 header {
 
-background-color: #a8bdb1;
+    background-color: #a8bdb1;
     /*tira depois o background-color: #a8bdb1*/
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 7%;
+    padding: 5rem 7%;
     /* explicação do uso da porcentagem*/
-    border-bottom: var(--border);
+    border-bottom: 0.5rem solid #e2dfd9;
     position: sticky;
     /* sticky posição do header*/
     top: 0;
     left: 0;
     z-index: 999;
 
+    font-weight: lighter;
+    /* peso da fonte mais leve*/
 
-}
 
-
-.ul-header {
-    display: flex;
-    /*  display: flex diixa a home lado a lado*/
-    gap: 8rem;
-    /* gap: deixa a no topo*/
-    list-style: none;
-    /* tirá as bolinhas das  ul*/
-
-}
-
-.ul-header li a {
-
-    color: #3d3d3d;
-    /*cor do texto*/
-    font-family: 1.6rem;
-    /* tamanho da fonte do texto*/
-
-}
-
-/*inicio do hover*/
-.ul-header li a:hover {
-    color: #f8f8f5;
-    /* hover mudar a cor do texto ao passar o mause no hover */
-    border-bottom: 0.1rem solid var(--main-color);
-    /* hover adicionar uma linha ao texto quando passa o mause inferior no hover*/
-    padding-bottom: 0.5rem;
-    /*adiciona espaçamento inferior no hover*/
 }
 
 .logo img {
- 
+
     height: 6.5rem;
     /*define a altura da logo */
     border-radius: 100%;
@@ -119,9 +96,9 @@ background-color: #a8bdb1;
 }
 
 .div-logo {
-   color: #3d3d3d;
+    color: #3d3d3d;
     display: flex;
-    align-items: center;
+    align-items: start;
     gap: 1rem;
     font-size: 1.8rem;
 
@@ -129,32 +106,7 @@ background-color: #a8bdb1;
 
 .div-logo:hover {
     color: #f8f8f5;
-    /* mudar a cor do icone ao passar o mause*/
-}
-
-
-.icons {
-    /* não estou mexendo nos icones, e sim na caixa */
-    display: flex;
-    align-items: center;
-    gap: 15px;
-
-
-}
-
-.icons i {
-
-color: #3d3d3d;
-    /* cor para icones*/
-    cursor: pointer;
-    /* altera o cursor ao passar sobre o icones*/
-    font-size: 2.5rem;
-    /* tamanho do icones*/
-}
-
-.icons i:hover {
-    color: #f8f8f5;
-    /* mudar a cor do icone ao passar o mause*/
+    /* mudar a cor do icone ao passar o mouse*/
 }
 
 
@@ -164,8 +116,58 @@ h4 {
 }
 
 
+.ul-header {
+    display: flex;
+    /* flex deixa a home lado a lado*/
+    gap: 3rem;
+    /* espaçamento entre as lis*/
+    list-style: none;
+    /* tira as bolinhas das homes sempre na ul*/
 
-/*fim do header*/
+}
+
+.ul-header li a {
+
+    color: #3d3d3d;
+    /*cor do texto*/
+    font-size: 1.5rem;
+    /* tamanho da fonte do texto*/
+
+}
+
+.ul-header li a:hover {
+    color: #f8f8f5;
+    /* hover muda a cor do texto ao passar o mouse*/
+    border-bottom: 0.5rem solid #e2dfd9;
+    /* adiciona uma linha inferior ao texto quando passa o mouse*/
+    padding-bottom: 0.5rem;
+    /*adiciona espaçamento inferior*/
+}
+
+.icons {
+    /* não estou mexendo nos icones, e sim na caixa */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+
+}
+
+.icons i {
+
+    color: #3d3d3d;
+    /* cor para icones*/
+    cursor: pointer;
+    /* altera o cursor ao passar sobre o icones*/
+    font-size: 2rem;
+    /* tamanho do icones*/
+}
+
+.icons i:hover {
+    color: #f8f8f5;
+    /* mudar a cor do icone ao passar o mause*/
+}
+
 
 .procedimento {
     background-color: #a8bdb1;
@@ -237,9 +239,6 @@ h5 {
     margin-bottom: 2rem;
 }
 
-
-/*inicio do footer*/
-
 footer {
     color: #3d3d3d;
     background-color: #a8bdb1;
@@ -262,24 +261,36 @@ footer a {
 
 }
 
-.div-endereco-1 {
+.div-ende-1 {
   
     width: 14rem;
     height: 10rem;
 }
 
-.div-endereco-2 {
+.div-ende-2 {
    
     width: 16rem;
     height: 10rem;
 }
+.div-ende-3 {
+     list-style: none;
+    /* tirá as bolinhas das li*/
+    width: 14.3rem;
+    height: 10rem;
+}
 
-.div-endereco-1 a:hover {
+.div-ende-1 a:hover {
     color: #f8f8f5;
 }
-.div-endereco-2 a:hover {
+.div-ende-2 a:hover {
     color: #f8f8f5;
 }
+.div-ende-3 a:hover {
+    color: #f8f8f5;
+
+}
+ 
+
 
 .footer-i {
   
@@ -326,23 +337,26 @@ footer a {
 
 }
 
+
 .botao-whats {
     position: fixed;
-    bottom: 25px;
-    right: 25px;
+    bottom: 5rem;
+    right: 5rem;
     background-color: #25d366;
-    color: white;
-    border-radius: 50%;
-    width: 5.1rem;
-    height: 5.1rem;
+    border-radius: 100%;
+    width: 5rem;   
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
-    z-index: 1000;
+    z-index: 100;
+    font-size: 10rem;
 }
 
 
+.botao-whats i {
+    font-size: 3rem;
+    color: #f8f8f5;
+}
 
 /* responcivel*/
  @media (max-width: 991px) {
@@ -406,4 +420,16 @@ section {
         display: none;
     }
     }
-c
+
+   @media (max-width: 668px) {
+  .content-2  {
+    text-align: center;
+   margin-bottom: 20%;
+
+    }
+   }
+
+
+   
+   
+
