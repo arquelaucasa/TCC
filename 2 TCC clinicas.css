@@ -39,7 +39,7 @@
     outline: none;
     /*não delinear nenhum (esboço: nenhum*/
 
-   
+
 
     scroll-behavior: smooth;
     /*comportamento de rolagem: suave*/
@@ -59,7 +59,8 @@ html {
 body {
     flex-wrap: wrap;
     /*permite que os itens quebrem para a próxima linha se necessário*/
-    background: var(--main-color);/*plano de fundo: var*/
+    background: var(--main-color);
+    /*plano de fundo: var*/
 
 }
 
@@ -171,56 +172,70 @@ h4 {
 
 .procedimento {
     background-color: #a8bdb1;
-    display: grid; /*Organiza os elementos internos em um layout de grade*/
+    display: grid;
+    /*Organiza os elementos internos em um layout de grade*/
     grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
     /*Cria colunas flexiveis com larg. min. de 30rem e máx. proporcional*/
-    gap: 1.5rem; /*Define o espaçamento entre os itens da grade*/
-   
+    gap: 1.5rem;
+    /*Define o espaçamento entre os itens da grade*/
+
 }
 
 
 .procedimento .box {
-    padding: 2rem; /*add espaçamento interno ao redor do conteúdo da caixa*/
-    text-align: center;/*centraliza o texo*/
-    border: 0.5rem solid #e2dfd9; /*aplicando uma borda ao redor da caixa*/
-    background: var(--bg-card); /*define a cor de fundo da caixa*/
-    
+    padding: 2rem;
+    /*add espaçamento interno ao redor do conteúdo da caixa*/
+    text-align: center;
+    /*centraliza o texo*/
+    border: 0.5rem solid #e2dfd9;
+    /*aplicando uma borda ao redor da caixa*/
+    background: var(--bg-card);
+    /*define a cor de fundo da caixa*/
+
 }
 
 .procedimento .box img {
-    height: 10rem;/*define a altura da img*/
+    height: 10rem;
+    /*define a altura da img*/
     width: 10rem;
-   
+
 }
 
 p {
     padding: 2rem;
     font-size: 2rem;
-    color: #3d3d3d;  
+    color: #3d3d3d;
 }
 
 .cln {
     background-color: #a8bdb1;
-    display: grid; /*Organiza os elementos internos em um layout de grade*/
+    display: grid;
+    /*Organiza os elementos internos em um layout de grade*/
     grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
     /*Cria colunas flexiveis com larg. min. de 30rem e máx. proporcional*/
-    gap: 1rem; /*Define o espaçamento entre os itens da grade*/
+    gap: 1rem;
+    /*Define o espaçamento entre os itens da grade*/
     align-items: center;
 }
 
 
 .cln .box {
-    padding: 2rem; /*add espaçamento interno ao redor do conteúdo da caixa*/
-    text-align: center;/*centraliza o texo*/
-    border: 0.5rem solid #e2dfd9; /*aplicando uma borda ao redor da caixa*/
-    background: #817f7f; /*define a cor de fundo da caixa*/
+    padding: 2rem;
+    /*add espaçamento interno ao redor do conteúdo da caixa*/
+    text-align: center;
+    /*centraliza o texo*/
+    border: 0.5rem solid #e2dfd9;
+    /*aplicando uma borda ao redor da caixa*/
+    background: #817f7f;
+    /*define a cor de fundo da caixa*/
     gap: 0.5rem;
 }
 
 .cln .box img {
-    height: 10rem;/*define a altura da img*/
+    height: 10rem;
+    /*define a altura da img*/
     width: 10rem;
-   
+
 }
 
 .cln .box p {
@@ -232,10 +247,14 @@ p {
 
 
 h5 {
-    font-size: 3rem;/*tamanho da fonte*/
-    text-align: center;/*alinhando o texto ao centro*/
-    padding: 1.8rem;/*espaçamento interno entre o texto e a margem*/
-    border: solid #a8bdb1 ;/*aplicando borda*/
+    font-size: 3rem;
+    /*tamanho da fonte*/
+    text-align: center;
+    /*alinhando o texto ao centro*/
+    padding: 1.8rem;
+    /*espaçamento interno entre o texto e a margem*/
+    border: solid #a8bdb1;
+    /*aplicando borda*/
     margin-bottom: 2rem;
 }
 
@@ -244,14 +263,14 @@ footer {
     background-color: #a8bdb1;
     padding: 3rem;
     display: flex;
-    
+
     justify-content: space-between;
     /*justify-content: space-between; coloca os icones bem no canto lado direito */
 }
 
 
 footer a {
-  
+
     font-size: 1.2rem;
     font-weight: lighter;
     line-height: 1.8;
@@ -262,18 +281,19 @@ footer a {
 }
 
 .div-ende-1 {
-  
+
     width: 14rem;
     height: 10rem;
 }
 
 .div-ende-2 {
-   
+
     width: 16rem;
     height: 10rem;
 }
+
 .div-ende-3 {
-     list-style: none;
+    list-style: none;
     /* tirá as bolinhas das li*/
     width: 14.3rem;
     height: 10rem;
@@ -282,22 +302,24 @@ footer a {
 .div-ende-1 a:hover {
     color: #f8f8f5;
 }
+
 .div-ende-2 a:hover {
     color: #f8f8f5;
 }
+
 .div-ende-3 a:hover {
     color: #f8f8f5;
 
 }
- 
+
 
 
 .footer-i {
-  
+
     height: 0rem;
     /* não estou mexendo nos icones, e sim na caixa */
     display: flex;
-      justify-content: end;
+    justify-content: end;
     gap: 2rem;
 
 
@@ -324,10 +346,10 @@ footer a {
 
 }
 
-.foot ul li  {
+.foot ul li {
     list-style: none;
-   margin-left: 6rem;
-   /* margin-left da espaçamento para a direita*/
+    margin-left: 6rem;
+    /* margin-left da espaçamento para a direita*/
 }
 
 .foot ul li a:hover {
@@ -344,7 +366,7 @@ footer a {
     right: 5rem;
     background-color: #25d366;
     border-radius: 100%;
-    width: 5rem;   
+    width: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -359,7 +381,7 @@ footer a {
 }
 
 /* responcivel*/
- @media (max-width: 991px) {
+@media (max-width: 991px) {
     html {
         font-size: 55%;
     }
@@ -369,67 +391,82 @@ footer a {
     }
 }
 
-section {
-    padding: 1.5rem;
-}
 
-@media (max-width: 668px) {
-    /*colocar código para esconder o menu*/
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+
+    header {
+        padding: 1.5rem 2rem;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
     .ul-header {
         display: none;
     }
-    
 }
 
-@media(max-width: 158px)  {
+
+
+@media (max-width: 168px) {
     html {
         font-size: 25%;
-
     }
 }
 
-@media(max-width: 158px)  {
-    main {
-        font-size: 20%;
-
-    }
-}
-
-@media screen {
-  
-    
-}
+@media screen {}
 
 /*footer re*/
 @media (max-width: 668px) {
+
     /*colocar código para esconder o menu*/
     footer ul {
         display: none;
     }
-    
+
 }
-@media(max-width: 158px)  {
+
+@media(max-width: 158px) {
     footer {
         font-size: 20%;
 
     }
 }
+
 @media (max-width: 668px) {
+
     /*colocar código para esconder o menu*/
     .div-ende-2 {
         display: none;
     }
+}
+
+@media (max-width: 668px) {
+    .content-2 {
+        text-align: center;
+        margin-bottom: 20%;
+
+    }
+}
+
+@media (max-width: 668px) {
+    .box {
+        text-align: center;
+        margin-bottom: 20%;
+
+        flex-wrap: wrap;
     }
 
-   @media (max-width: 668px) {
-  .content-2  {
-    text-align: center;
-   margin-bottom: 20%;
+}
+
+@media(max-width: 158px) {
+    main {
+        font-size: 20%;
+        flex-wrap: wrap;
 
     }
-   }
-
-
-   
-   
-
+}
