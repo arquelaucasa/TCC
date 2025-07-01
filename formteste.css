@@ -223,3 +223,19 @@ header {
     
     }
     /*fim do header*/
+
+   
+    .ancora-form  {
+        text-decoration: none;
+        
+    }
+
+    .ancora-form p {
+        color: black;
+        font-weight: 800;
+    }
+
+    .div-form {
+        margin-top: -0.8rem;
+        
+    }

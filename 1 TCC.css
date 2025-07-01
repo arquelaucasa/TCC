@@ -165,7 +165,7 @@ h4 {
   
    
 }
-#menu-btn {
+#menu-btn-3 {
 flex-wrap: wrap;
 
 }
@@ -189,19 +189,7 @@ flex-wrap: wrap;
 }
 
 
-
-.btn {
-    background-color: #3d3d3d;
-    margin-top: 1rem;
-    padding: 0.9rem 3rem;
-    font-size: 1.7rem;
-    color: #fff;
-    border-radius: 0.5rem;
-     border: 1px solid white;
-     
-}
-
-.btn:hover {
+.btn-3:hover {
     background-color: #a8bdb1;
     border-radius: 0.7rem;
     color: #000;
@@ -281,11 +269,29 @@ h1 {
      background: url(imagem/limeira-recepcao\ 11.jpg) no-repeat;
        background-size: cover;
     /*preenchimento da imagem*/
-    background-position: center;
+   
    
     
 }
 
+#btn-2 {
+     background-color: #3d3d3d;
+    padding: 0.9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    border-radius: 0.5rem;
+     border: 1px solid white;
+
+}
+        #btn-4 {
+            background-color: #3d3d3d;
+            padding: 0.9rem 3rem;
+            font-size: 1.7rem;
+            color: #fff;
+            border-radius: 0.5rem;
+             border: 1px solid white;
+
+        }
 
 
 
@@ -296,16 +302,25 @@ h1 {
     color: #fff;
     border-radius: 0.5rem;
      border: 1px solid white;
-    
-    
-}
-.bt {
  
-  
+
+    
+}
+#btn-2:hover {
+    background-color: #a8bdb1;
+    border-radius: 0.7rem;
+    color: #000;
+
+}
+#btn-4:hover {
+    background-color: #a8bdb1;
+    border-radius: 0.7rem;
+    color: #000;
 
 }
 
-.btn-3:hover {
+
+.btn-3 #btn-4:hover {
     background-color: #a8bdb1;
     border-radius: 0.7rem;
     color: #000;
@@ -441,7 +456,7 @@ footer a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50rem;
+    height: 50rem;
 }
 
 

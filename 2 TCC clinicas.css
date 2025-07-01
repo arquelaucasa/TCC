@@ -175,8 +175,6 @@ flex-wrap: wrap;
 }
 
 
-
-
 .procedimento {
     background-color: #a8bdb1;
     display: grid;
@@ -185,7 +183,7 @@ flex-wrap: wrap;
     /*Cria colunas flexiveis com larg. min. de 30rem e máx. proporcional*/
     gap: 1.5rem;
     /*Define o espaçamento entre os itens da grade*/
-
+   
 }
 
 
@@ -218,11 +216,15 @@ p {
     background-color: #a8bdb1;
     display: grid;
     /*Organiza os elementos internos em um layout de grade*/
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
     /*Cria colunas flexiveis com larg. min. de 30rem e máx. proporcional*/
     gap: 1rem;
     /*Define o espaçamento entre os itens da grade*/
     align-items: center;
+    /*alinhando itens na sessão*/
+    
+    
 }
 
 
@@ -233,7 +235,7 @@ p {
     /*centraliza o texo*/
     border: 0.5rem solid #e2dfd9;
     /*aplicando uma borda ao redor da caixa*/
-    background: #817f7f;
+    background:  #a8bdb1;
     /*define a cor de fundo da caixa*/
     gap: 0.5rem;
 }
@@ -445,6 +447,45 @@ main {
     font-size: 20%;
 
 }
+@media (max-width: 668px){
+.procedimento {
+    background-color: #a8bdb1;
+    display: grid;
+    /*Organiza os elementos internos em um layout de grade*/
+    grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
+    /*Cria colunas flexiveis com larg. min. de 30rem e máx. proporcional*/
+    gap: 1.5rem;
+    /*Define o espaçamento entre os itens da grade*/
+    flex-wrap: wrap;
+    display: flex;
+
+}
+}
+
+
+
+
+@media (max-width: 668px){
+.cln {
+    background-color: #a8bdb1;
+    display: grid;
+    /*Organiza os elementos internos em um layout de grade*/
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
+    /*Cria colunas flexiveis com larg. min. de 30rem e máx. proporcional*/
+    gap: 1rem;
+    /*Define o espaçamento entre os itens da grade*/
+    align-items: center;
+    /*alinhando itens na sessão*/
+    flex-wrap: wrap;
+    /*posiciona as caixas uma abaixo da outra*/
+    display: flex;
+    /*alinha lateralmente*/
+
+    
+}
+}
+
 @media (max-width: 668px) {  
 .box a {
     flex-wrap: wrap;
