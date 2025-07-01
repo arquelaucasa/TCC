@@ -3,18 +3,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    /*paletas escolhida*/
+    /*paleta escolhida*/
 
     --main-color: #a8bdb1;
-    /*--cor principal: #a8bdb1;*/
-    --bg: #f8f8f5;
-    --br-card: #3d3d3d;
-    --border: 0.1rem #d6c7b0;
+    /*cor principal*/
+    --bg: #a8bdb1;
+    --br-card: #817f7f;
+    --border: 1.5rem solid #160e02;
     /*fronteira*/
+
 
 }
 
-    
+
+
 * {
     margin: 0;
     /*margem*/
@@ -29,87 +31,64 @@
     text-decoration: none;
     /*decoração de texto nenhuma*/
     text-transform: capitalize;
-    /*transformação de texto: capitalizar*/
+    /*transformação de texto: capitalizar em letras maiusculas*/
 
-    transition: 0.2s linear;
+    transition: 0.3s linear;
     /*transição*/
 
     outline: none;
     /*não delinear nenhum (esboço: nenhum*/
 
-    border: none;
-    /*fronteira: nenhuma*/
+
 
     scroll-behavior: smooth;
     /*comportamento de rolagem: suave*/
 
+
 }
 
 html {
-    font-size: 68.5%;
+    font-size: 62.5%;
     /*configuração do font-size para 62.5%, facilitando o uso do rem (1rem = 10px)*/
     overflow-x: hidden;
     /*estouro x oculto*/
- 
+
+
 }
 
 body {
-    background-color: #f8f8f5;
-    
+    flex-wrap: wrap;
+    /*permite que os itens quebrem para a próxima linha se necessário*/
+    background: var(--main-color);
+    /*plano de fundo: var*/
+
 }
 
 /*inicio do header*/
 header {
 
-background-color: #a8bdb1;
+    background-color: #a8bdb1;
     /*tira depois o background-color: #a8bdb1*/
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 7%;
+    padding: 5rem 7%;
     /* explicação do uso da porcentagem*/
-    border-bottom: var(--border);
+    border-bottom: 0.5rem solid #e2dfd9;
     position: sticky;
     /* sticky posição do header*/
     top: 0;
     left: 0;
     z-index: 999;
 
+    font-weight: lighter;
+    /* peso da fonte mais leve*/
+
 
 }
-
-.ul-header {
-    display: flex;
-    /*  display: flex diixa a home lado a lado*/
-    gap: 8rem;
-    /* gap: deixa a home no topo*/
-    list-style: none;
-    /* tirá as bolinhas das homes sempre na ul*/
-
-}
-
-.ul-header li a {
-
-    color: #3d3d3d;
-    /*cor do texto*/
-    font-family: 1.6rem;
-    /* tamanho da fonte do texto*/
-
-}
-
-/*inicio do hover*/
-.ul-header li a:hover {
-    color: #f8f8f5;
-    /* hover mudar a cor do texto ao passar o mause no hover */
-    border-bottom: 0.1rem solid var(--main-color);
-    /* hover adicionar uma linha ao texto quando passa o mause inferior no hover*/
-    padding-bottom: 0.5rem;
-    /*adiciona espaçamento inferior no hover*/
-}
-
 
 .logo img {
- 
+
     height: 6.5rem;
     /*define a altura da logo */
     border-radius: 100%;
@@ -118,9 +97,9 @@ background-color: #a8bdb1;
 }
 
 .div-logo {
-   color: #3d3d3d;
+    color: #3d3d3d;
     display: flex;
-    align-items: center;
+    align-items: start;
     gap: 1rem;
     font-size: 1.8rem;
 
@@ -128,31 +107,7 @@ background-color: #a8bdb1;
 
 .div-logo:hover {
     color: #f8f8f5;
-    /* mudar a cor do icone ao passar o mause*/
-}
-
-.icons {
-    /* não estou mexendo nos icones, e sim na caixa */
-    display: flex;
-    align-items: center;
-    gap: 15px;
-
-
-}
-
-.icons i {
-
-color: #3d3d3d;
-    /* cor para icones*/
-    cursor: pointer;
-    /* altera o cursor ao passar sobre o icones*/
-    font-size: 2.5rem;
-    /* tamanho do icones*/
-}
-
-.icons i:hover {
-    color: #f8f8f5;
-    /* mudar a cor do icone ao passar o mause*/
+    /* mudar a cor do icone ao passar o mouse*/
 }
 
 
@@ -160,7 +115,59 @@ h4 {
     font-size: 1rem;
 
 }
-/*fim do header*/
+
+
+.ul-header {
+    display: flex;
+    /* flex deixa a home lado a lado*/
+    gap: 3rem;
+    /* espaçamento entre as lis*/
+    list-style: none;
+    /* tira as bolinhas das homes sempre na ul*/
+
+}
+
+.ul-header li a {
+
+    color: #3d3d3d;
+    /*cor do texto*/
+    font-size: 1.5rem;
+    /* tamanho da fonte do texto*/
+
+}
+
+.ul-header li a:hover {
+    color: #f8f8f5;
+    /* hover muda a cor do texto ao passar o mouse*/
+    border-bottom: 0.5rem solid #e2dfd9;
+    /* adiciona uma linha inferior ao texto quando passa o mouse*/
+    padding-bottom: 0.5rem;
+    /*adiciona espaçamento inferior*/
+}
+
+.icons {
+    /* não estou mexendo nos icones, e sim na caixa */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+
+}
+
+.icons i {
+
+    color: #3d3d3d;
+    /* cor para icones*/
+    cursor: pointer;
+    /* altera o cursor ao passar sobre o icones*/
+    font-size: 2rem;
+    /* tamanho do icones*/
+}
+
+.icons i:hover {
+    color: #f8f8f5;
+    /* mudar a cor do icone ao passar o mause*/
+}
 
 .contato {
     background-position: center;
@@ -259,14 +266,15 @@ h4 {
     
 }
 
-.contatos-p1 {
+.form-container {
+    color: #160e02;
     align-content: center;
     /*  align-content: center; centralizando o texto*/
      line-height: 4rem; /*espaçamento no texto*/
       font-size: 2rem;
     flex-direction: column;
        margin-inline-start: 10rem;  
-           color: #f8f8f5;  
+         align-items: center;  
            flex-wrap: wrap;
            
   
@@ -362,6 +370,26 @@ footer a {
 
 }
 
+.botao-whats {
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    background-color: #25d366;
+    border-radius: 100%;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    font-size: 10rem;
+}
+
+
+.botao-whats i {
+    font-size: 3rem;
+    color: #f8f8f5;
+}
+
 /*responcivel*/
 
 
@@ -401,12 +429,18 @@ section {
 
     }
 }
+@media (max-width: 668px) {
+.box img {
+     flex-wrap: wrap;
+}
+
+}
+
 
 @media screen {
   
     
 }
-
 /*footer re*/
 @media (max-width: 668px) {
     /*colocar código para esconder o menu*/
@@ -415,36 +449,20 @@ section {
     }
     
 }
-@media(max-width: 158px)  {
+@media(max-width: 668px)  {
     footer {
-        font-size: 20%;
-
+        font-size: 55%;
+    
     }
 }
-@media (max-width: 668px) {
-    /*colocar código para esconder o menu*/
-    .div-ende-2 {
-        display: none;
-    }
-    }
+@media(max-width: 668px) { 
+   .div-endereco-1 a {
 
-    @media(max-width: 668px) {
-        .DivForm {
-            flex-wrap : wrap;
-         
-        }
-    }
+font-size: 1.4rem;  
 
-    @media(max-width: 430px) {
-        .form-container {
-            margin-left: 30px;
-            margin-right: 30px;
-        }
-   
+   }  
 
-
- 
-    
+ }
 
 
 

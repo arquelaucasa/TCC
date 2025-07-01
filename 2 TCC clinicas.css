@@ -257,20 +257,19 @@ h5 {
     /*aplicando borda*/
     margin-bottom: 2rem;
 }
-
 footer {
     color: #3d3d3d;
     background-color: #a8bdb1;
     padding: 3rem;
     display: flex;
-
+    
     justify-content: space-between;
     /*justify-content: space-between; coloca os icones bem no canto lado direito */
 }
 
 
 footer a {
-
+  
     font-size: 1.2rem;
     font-weight: lighter;
     line-height: 1.8;
@@ -280,46 +279,34 @@ footer a {
 
 }
 
-.div-ende-1 {
-
+.div-endereco-1 {
+  
     width: 14rem;
     height: 10rem;
 }
 
-.div-ende-2 {
-
+.div-endereco-2 {
+   
     width: 16rem;
     height: 10rem;
 }
 
-.div-ende-3 {
-    list-style: none;
-    /* tirá as bolinhas das li*/
-    width: 14.3rem;
-    height: 10rem;
-}
 
-.div-ende-1 a:hover {
+.div-endereco-1 a:hover {
     color: #f8f8f5;
 }
-
-.div-ende-2 a:hover {
+.div-endereco-2 a:hover {
     color: #f8f8f5;
+    display: none;
 }
-
-.div-ende-3 a:hover {
-    color: #f8f8f5;
-
-}
-
 
 
 .footer-i {
-
+  
     height: 0rem;
     /* não estou mexendo nos icones, e sim na caixa */
     display: flex;
-    justify-content: end;
+      justify-content: end;
     gap: 2rem;
 
 
@@ -335,6 +322,7 @@ footer a {
     /* altera o cursor ao passar sobre o icones*/
     font-size: 2rem;
     /* tamanho do icones*/
+    display: none;
 
 
 }
@@ -346,10 +334,10 @@ footer a {
 
 }
 
-.foot ul li {
+.foot ul li  {
     list-style: none;
-    margin-left: 6rem;
-    /* margin-left da espaçamento para a direita*/
+   margin-left: 6rem;
+   /* margin-left da espaçamento para a direita*/
 }
 
 .foot ul li a:hover {
@@ -358,6 +346,7 @@ footer a {
 
 
 }
+
 
 
 .botao-whats {
@@ -381,25 +370,22 @@ footer a {
 }
 
 /* responcivel*/
-@media (max-width: 991px) {
+@media (max-width: 688px) {
     html {
         font-size: 55%;
     }
-
+     
     header {
         padding: 1rem 1.5rem;
     }
 }
 
 
-@media (max-width: 991px) {
-    html {
-        font-size: 55%;
-    }
-
+@media (max-width: 688px) {  
     header {
         padding: 1.5rem 2rem;
     }
+    
 
     section {
         padding: 2rem;
@@ -420,22 +406,20 @@ footer a {
 
 @media screen {}
 
-/*footer re*/
-@media (max-width: 668px) {
 
-    /*colocar código para esconder o menu*/
-    footer ul {
-        display: none;
-    }
+main {
+    flex-wrap: wrap;
+    font-size: 20%;
 
 }
+@media (max-width: 668px) {  
+.box a {
+    flex-wrap: wrap;
+   
 
-@media(max-width: 158px) {
-    footer {
-        font-size: 20%;
-
-    }
 }
+  }
+
 
 @media (max-width: 668px) {
 
@@ -453,20 +437,39 @@ footer a {
     }
 }
 
+
+
+/*footer re*/
 @media (max-width: 668px) {
-    .box {
-        text-align: center;
-        margin-bottom: 20%;
-
-        flex-wrap: wrap;
+    /*colocar código para esconder o menu*/
+    footer .div-endereco-1  {
+        display: none;
     }
-
+    
 }
+    
 
-@media(max-width: 158px) {
-    main {
-        font-size: 20%;
-        flex-wrap: wrap;
-
+@media(max-width: 668px)  {
+    footer {
+        font-size: 55%;
+    
     }
+}
+@media(max-width: 668px) { 
+   .foot li {
+
+font-size: 1.4rem;  
+
+   }  
+
+ }
+ 
+/*footer re*/
+@media (max-width: 668px) {
+
+    /*colocar código para esconder o menu*/
+    footer .div-endereco-2 {
+        display: none;
+    }
+
 }

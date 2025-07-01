@@ -6,13 +6,15 @@
     /*paleta escolhida*/
 
     --main-color: #a8bdb1;
-    /*--cor principal: #a8bdb1;*/
-    --bg: #f8f8f5;
-    --br-card: #3d3d3d;
-    --border: 0.1rem #d6c7b0;
+    /*cor principal*/
+    --bg: #a8bdb1;
+    --br-card: #817f7f;
+    --border: 1.5rem solid #160e02;
     /*fronteira*/
 
+
 }
+
 
 
 * {
@@ -28,77 +30,51 @@
 
     text-decoration: none;
     /*decoração de texto nenhuma*/
+    text-transform: capitalize;
+    /*transformação de texto: capitalizar em letras maiusculas*/
 
-   text-transform: capitalize; /*transformação de texto: capitalizar em letras maiuscula*/
-
-    transition: 0.2s linear;
+    transition: 0.3s linear;
     /*transição*/
 
     outline: none;
     /*não delinear nenhum (esboço: nenhum*/
 
-    border: none;
-    /*fronteira: nenhuma*/
+
 
     scroll-behavior: smooth;
     /*comportamento de rolagem: suave*/
 
+
 }
 
 html {
-    font-size: 68.5%;
+    font-size: 62.5%;
     /*configuração do font-size para 62.5%, facilitando o uso do rem (1rem = 10px)*/
     overflow-x: hidden;
     /*estouro x oculto*/
-  
-    
+
 
 }
 
 body {
-  
-    /*permite que os itens quebrem para a proxima limha se necessário*/
-    /* background-color: #a8bdb1;*/
-    /*background: var(--bg); /*plano de fundo: var*/
+    flex-wrap: wrap;
+    /*permite que os itens quebrem para a próxima linha se necessário*/
+    background: var(--main-color);
+    /*plano de fundo: var*/
 
-}
-
-
-.icons {
-    /* não estou mexendo nos icones, e sim na caixa */
-    display: flex;
-    align-items: center;
-    gap: 15px;
-
-
-}
-
-.icons i {
- flex-wrap: wrap;
-    color: #3d3d3d;
-    /* cor para icones*/
-    cursor: pointer;
-    /* altera o cursor ao passar sobre o icones*/
-    font-size: 2.5rem;
-    /* tamanho do icones*/
-}
-
-.icons i:hover {
-    color: #f8f8f5;
-    /* mudar a cor do icone ao passar o mause*/
 }
 
 /*inicio do header*/
 header {
- 
+
     background-color: #a8bdb1;
     /*tira depois o background-color: #a8bdb1*/
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 7%;
+    padding: 5rem 7%;
     /* explicação do uso da porcentagem*/
-    border-bottom: var(--border);
+    border-bottom: 0.5rem solid #e2dfd9;
     position: sticky;
     /* sticky posição do header*/
     top: 0;
@@ -106,40 +82,10 @@ header {
     z-index: 999;
 
     font-weight: lighter;
-    /* peso dea fonte mais leve*/
+    /* peso da fonte mais leve*/
 
 
 }
-
-.ul-header {
-    display: flex;
-    /*  display: flex diixa a home lado a lado*/
-    gap: 8rem;
-    /* gap: deixa a home no topo*/
-    list-style: none;
-    /* tirá as bolinhas das homes sempre na ul*/
-
-}
-
-.ul-header li a {
-
-    color: #3d3d3d;
-    /*cor do texto*/
-    font-family: 1.6rem;
-    /* tamanho da fonte do texto*/
-
-}
-
-
-.ul-header li a:hover {
-    color: #f8f8f5;
-    /* hover mudar a cor do texto ao passar o mause no hover */
-    border-bottom: 0.1rem solid var(--main-color);
-    /* hover adicionar uma linha ao texto quando passa o mause inferior no hover*/
-    padding-bottom: 0.5rem;
-    /*adiciona espaçamento inferior no hover*/
-}
-
 
 .logo img {
 
@@ -153,7 +99,7 @@ header {
 .div-logo {
     color: #3d3d3d;
     display: flex;
-    align-items: center;
+    align-items: start;
     gap: 1rem;
     font-size: 1.8rem;
 
@@ -161,15 +107,68 @@ header {
 
 .div-logo:hover {
     color: #f8f8f5;
-    /* mudar a cor do icone ao passar o mause*/
+    /* mudar a cor do icone ao passar o mouse*/
 }
 
 
 h4 {
     font-size: 1rem;
+
 }
 
-/*fim do header*/
+
+.ul-header {
+    display: flex;
+    /* flex deixa a home lado a lado*/
+    gap: 3rem;
+    /* espaçamento entre as lis*/
+    list-style: none;
+    /* tira as bolinhas das homes sempre na ul*/
+
+}
+
+.ul-header li a {
+
+    color: #3d3d3d;
+    /*cor do texto*/
+    font-size: 1.5rem;
+    /* tamanho da fonte do texto*/
+
+}
+
+.ul-header li a:hover {
+    color: #f8f8f5;
+    /* hover muda a cor do texto ao passar o mouse*/
+    border-bottom: 0.5rem solid #e2dfd9;
+    /* adiciona uma linha inferior ao texto quando passa o mouse*/
+    padding-bottom: 0.5rem;
+    /*adiciona espaçamento inferior*/
+}
+
+.icons {
+    /* não estou mexendo nos icones, e sim na caixa */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+
+}
+
+.icons i {
+
+    color: #3d3d3d;
+    /* cor para icones*/
+    cursor: pointer;
+    /* altera o cursor ao passar sobre o icones*/
+    font-size: 2rem;
+    /* tamanho do icones*/
+}
+
+.icons i:hover {
+    color: #f8f8f5;
+    /* mudar a cor do icone ao passar o mause*/
+}
+
 
 .container-1 {
     background-image: url(imagem/fotos\ de\ peles.jpg);
@@ -179,6 +178,7 @@ h4 {
     line-height: 1.8;  
    align-items: center;
    text-align: center;
+     flex-wrap: wrap;
      
 }
 
@@ -272,7 +272,7 @@ h1 {
 
 
 .container-3 {
-   background-image: url(imagem/imagens/recepção/recepção3.jpg);
+   background-image: url(imagem/imagens/cln2.jpg);
   position: relative;
     min-height: 85vh;
     /*altura minima da sessão*/
@@ -280,8 +280,6 @@ h1 {
     /*preenchimento da imagem*/
     background-position: center;
     /*centraliza a imagem*/
-    flex-wrap: wrap;
- 
    
 }
 
@@ -349,13 +347,13 @@ footer a {
 }
 
 .div-endereco-1 {
-  
+  flex-wrap: wrap;
     width: 14rem;
     height: 10rem;
 }
 
 .div-endereco-2 {
-   
+   flex-wrap: wrap;
     width: 16rem;
     height: 10rem;
 }
@@ -390,6 +388,7 @@ footer a {
     /* altera o cursor ao passar sobre o icones*/
     font-size: 2rem;
     /* tamanho do icones*/
+    display: none;
 
 
 }
@@ -442,6 +441,7 @@ footer a {
 
 
 /* responcivel*/
+
  @media (max-width: 991px) {
     html {
         font-size: 55%;
@@ -471,19 +471,18 @@ footer a {
 
 
  @media(max-width: 668px) {
-    .container-1 {
-         background-image: url(imagem/imagens/pele/pele.jpg);
-    background-size: cover;
-    /*preenchimento da imagem*/
-     position: relative;
-    background-position: center;
-     width: 100%;
-    height: 100%;
-     border-radius: 4%;
-   
- }
-   }
+   .container-3 {
+   background-image: url(imagem/imagens/cln2.jpg);
+ flex-wrap: wrap;
 
+
+}
+}
+
+   
+   
+ 
+ 
    section {
     padding: 1.5rem;
 }
@@ -550,11 +549,13 @@ footer a {
 /*footer re*/
 @media (max-width: 668px) {
     /*colocar código para esconder o menu*/
-    footer ul {
+    footer .div-endereco-1 a {
         display: none;
     }
     
 }
+    
+
 @media(max-width: 668px)  {
     footer {
         font-size: 55%;
@@ -562,7 +563,7 @@ footer a {
     }
 }
 @media(max-width: 668px) { 
-   .div-endereco-1 a {
+   .foot li {
 
 font-size: 1.4rem;  
 
