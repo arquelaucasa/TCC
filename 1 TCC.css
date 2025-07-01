@@ -467,27 +467,6 @@ footer a {
 }
 
 
-@media (max-width: 668px) { 
-
-#menu-btn {
-    
-
-}
- }
-
-@media (max-width: 668px) {   
-#icons-h {
-    color: #3d3d3d;
-    /* cor para icones*/
-    cursor: pointer;
-    /* altera o cursor ao passar sobre o icones*/
-    font-size: 2rem;
-    /* tamanho do icones*/
-    display: none;
-  
-
-   }
-}
 
 
 @media(max-width: 668px)  {
