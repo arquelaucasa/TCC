@@ -41,7 +41,7 @@
                         <a href="2 TCC clinicas.html">página 2</a>
                     </li>
 
-                    
+
 
                     <li>
                         <a href="">TRATAMENTOS</a>
@@ -77,67 +77,64 @@
 
     <!-- início do main -->
     <main>
-        
+
         <!-- label -->
 
-        <section class="contato" id="contato">
+        <!--Aqui chamamos nossa Section para adicionar informações (tags) à ele  -->
+        <section class="form-container"> <!-- Damos um nome para a nossa Section a qual chamará "Form-Conteiner" -->
+            <!--  -->
+            <div class="container"> <!-- Abrimos uma Div para que possamos destacar nosso formulário  -->
 
-            <div class="contatoContainer container">
 
-                <div class="contatoForm">
-                    <form action="">
-                        
-                        <!-- nome e telefone  -->
-                        <div class="DivForm">
+                <form method="get" action="cad.php"> <!-- Abrimos aqui nossa TAG de Formulário -->
 
-                            <div class="DivFormLabel" id="divform">
-                                <label for="Email">Nome</label>
-                               <input type="text" class="sobre-nome" id="sobre-nome" name="sobre-nome" 
-                                placeholder="insira seu sobrenome" required> <br>
 
-                            </div>
+                    <h1>Cadastre-se e tenha facilidades e descontos exclusivos</h1>
+                    <!-- Título para o nosso formulário -->
 
-                             <div class="DivFormLabel">
-                                <label for="telefone">Telefone</label>
-                                <input type="tel" name="" id="" class="Telefone"  placeholder="insirara-seu-telefone" required>
-                            </div>
-                           
-                        </div>
-                        
-                        <!-- email -->
-                        <div class="DivForm">
 
-                        <div class="DivFormLabel" id="DivFormLabel-01">
-                            <label for="email">Email</label>
-                             <input type="email" name="" id="" class="email"  placeholder="insirara-seu-email" required>
-                        </div>  
+                    <p>Preencha o formulário abaixo e entraremos em contato com você</p>
+                    <!-- Pequena descrição usando a TAG de Paragráfo  -->
 
-                        <div class="DivFormLabel">
-                                <label for="Empresa">Empresa</label>
-                                <input type="text" name="" id="" class="Empresa"  placeholder="insirara-o nome da empresa" required>
-                        </div>
-                               
 
-                        
-                        </div>
+                    <div class="input-single">
+                        <!-- Aqui criamos uma divisão para inserirmos nosso Label e Input (Nome e Caixa)  -->
+                        <input type="text" class="input" autocomplete="off" required id="nome" name="nome">
+                        <!-- Atribuimos que é tipo Text, adicionamos um nome para sua classe 
+                                                                                              e desabilitamos a preenchimento automático -->
 
-                                 <!-- empresa e mensagem -->
-                        <div class="DivForm">  
+                        <label for="nome">Nome</label>
+                        <!-- Aqui colocamos o nome que irá aparecer do lado da nossa caixa (input) -->
+                    </div>
 
-                            <div class="DivFormLabel">
-                                <label for="Mensagem">Mensagem</label>
-                                <input type="text" name="" id="" class="Mensagem"  placeholder="insirara-sua mensagem" required>
-                            </div>
 
-                             <div class="DivFormLabel">
-                                <label for="endereço">endereço</label>
-                                <input type="text" name="" id="" class="endereço"placeholder="insirara-seu-endereço" required>
-                            </div>
+                    <div class="input-single">
+                        <!-- Aqui criamos uma divisão para inserirmos nosso Label e Input (Nome e Caixa) -->
+                        <input type="text" class="input" autocomplete="off" required id="email" name="sobrenome">
+                        <!-- Atribuimos que é tipo Text, adicionamos um nome para sua classe 
+                                                                                              e desabilitamos a preenchimento automático -->
+                        <label for="sobrenome">Sobrenome</label>
+                        <!-- Aqui colocamos o nome que irá aparecer do lado da nossa caixa (input) -->
+                    </div>
 
-                        </div>
-                        <button type="submit" class="btn">Enviar</button>
-                    </form>
-                </div>
+
+                    <div class="input-single">
+                        <!-- Aqui criamos uma divisão para inserirmos nosso Label e Input (Nome e Caixa) -->
+                        <input type="number" class="input" autocomplete="off" required id="telefone" name="telefone"> <!-- Atribuimos que é tipo Text, adicionamos um nome para sua classe 
+                e desabilitamos a preenchimento automático -->
+                        <label for="telefone">Telefone</label>
+                        <!-- Aqui colocamos o nome que irá aparecer do lado da nossa caixa (input) -->
+                    </div>
+
+
+                    <div class="btn"> <!-- Aqui inserimos nosso Botão de Enviar -->
+                        <input type="submit" value="Enviar">
+                        <!-- Atribuimos um nome de classe para ele como "btn" Type Submit para botão e o Value que é o nome visível no submit-->
+                    </div>
+
+
+
+                </form>
             </div>
         </section>
 
@@ -147,7 +144,7 @@
 
     <!-- fim Pagina da Natalia html  -->
 
-     <footer>
+    <footer>
         <!-- inicio do footer -->
 
         <div class="foot">
@@ -178,22 +175,22 @@
             </ul>
         </div>
 
-      
+
         <!-- div endereço  -->
         <div class="div-endereco-1">
             <a
                 href="https://www.google.com/maps/place/Rua+Bav%C3%A1ria,+143+-+Jardim+Ipanema(Zona+Leste),+S%C3%A3o+Paulo+-+SP,+03582-140/@-23.5592967,-46.502322,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce676a649aa493:0xcc2068736f5f83c2!8m2!3d-23.5593016!4d-46.4997471!16s%2Fg%2F11h4nlccyk?entry=ttu&g_ep=EgoyMDI1MDYwOS4wIKXMDSoASAFQAw%3D%3D">
-                 Endereço: Rua Bavária 143 cidade Lider são paulo-sp
+                Endereço: Rua Bavária 143 cidade Lider são paulo-sp
                 Cep: 03582-140
             </a>
         </div>
 
         <div class="div-endereco-2">
 
-           <a href="">Horário de Funcionamento
+            <a href="">Horário de Funcionamento
                 Segunda a sexta das 8h às 21h
                 Sábados das 8h às 17h
-                Domingos sem atendiment  </a>
+                Domingos sem atendiment </a>
 
         </div>
 
@@ -201,21 +198,21 @@
 
         <!-- div de contatos mais a-->
         <div class="foot">
-           <ul>
-           <li><a href=""> ENTRE EM CONTATO </a></li>
+            <ul>
+                <li><a href=""> ENTRE EM CONTATO </a></li>
 
-            <li ><a href=""> (11) 983464909</a></li>
+                <li><a href=""> (11) 983464909</a></li>
 
-            <li><a href=""> (11) 27472025</a></li>
+                <li><a href=""> (11) 27472025</a></li>
 
-            <li><a href="">Email:arquelaucompra@gmail.com</a></li>
+                <li><a href="">Email:arquelaucompra@gmail.com</a></li>
 
-           </ul>
-           
+            </ul>
+
         </div>
 
-        
-      
+
+
 
         <div class="footer-i">
 
