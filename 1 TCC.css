@@ -431,6 +431,16 @@ footer a {
     z-index: 1000;
 }
 
+
+.bt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50rem;
+}
+
+
+
 /* responcivel*/
  @media (max-width: 991px) {
     html {
