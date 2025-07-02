@@ -458,10 +458,15 @@ main {
     /*Define o espaçamento entre os itens da grade*/
     flex-wrap: wrap;
     display: flex;
-
+  
 }
 }
-
+@media (max-width: 668px) {
+.procedimento #img {
+    width: 4rem;
+    height: 2rem;
+}
+}
 
 
 
