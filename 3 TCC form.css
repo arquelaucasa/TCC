@@ -228,13 +228,13 @@ h4 {
 
 .btn {
     position: relative;
-    padding: 1.5em;
-    margin: 1rem auto;
+    padding: 2rem;
+    margin: 3rem auto;
     border-radius: 7%;
     color: white;
     border: 1px solid white;
     background-color: transparent;
-    font-size: 1em;
+    font-size: 2rem;
     overflow: hidden;
     cursor: pointer;
     transition: color 0.4s ease;
@@ -257,7 +257,7 @@ h4 {
 }
 
 .btn:hover::before {
-    width: 100%;
+    width: 10%;
 }
 .contatos {
    display: flex;
@@ -291,7 +291,7 @@ h4 {
 }
 
 /*inicio do footer*/
-ooter {
+footer {
     color: #3d3d3d;
     background-color: #a8bdb1;
     padding: 3rem;
